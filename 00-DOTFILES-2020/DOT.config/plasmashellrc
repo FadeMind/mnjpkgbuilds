@@ -1,0 +1,61 @@
+[KFileDialog Settings]
+Recent Files[$e]=wallpaperflare.com_wallpaper.jpg,file:$HOME/.wallpapers/wallpaperflare.com_wallpaper.jpg
+Recent URLs[$e]=file:$HOME/.wallpapers/,file:$HOME/
+detailViewIconSize=0
+
+[PlasmaRunnerManager]
+LaunchCounts=2 services_applications:org.kde.konsole.desktop,2 services_applications:nvidia-settings.desktop,2 services_applications:com.github.hluk.copyq.desktop,1 services_applications:authy.desktop,1 baloosearch_/home/fademind/Pobrane/MANJARO.data/CFGS/OLDS/MateriaDark.kateschema.zip,1 services_applications:mouse.desktop,8 services_applications:spotify-kdocker.desktop,2 services_applications:jdownloader.desktop,1 services_applications:org.gnome.DiskUtility.desktop,2 services_applications:org.qbittorrent.qBittorrent.desktop,1 services_applications:org.kde.skanlite.desktop,4 services_applications:clementine.desktop,1 services_applications:systemsettings.desktop,1 services_applications:org.bleachbit.BleachBit.desktop,5 services_applications:timeshift-gtk.desktop,1 services_applications:org.kde.kdeconnect.app.desktop,1 services_applications:converseen.desktop,2 services_applications:com.ulduzsoft.Birdtray.desktop,1 services_applications:gufw.desktop,2 services_applications:megasync.desktop,4 services_applications:org.kde.kate.desktop,2 services_applications:doublecmd.desktop,1 services_applications:org.kde.ksysguard.desktop,3 services_applications:pinta.desktop,1 services_applications:kvantummanager.desktop,1 services_applications:thunderbird.desktop,3 services_applications:com.github.persepolisdm.persepolis.desktop,2 services_applications:gparted.desktop,1 services_applications:org.kde.yakuake.desktop,3 services_applications:org.kde.krusader.desktop,2 services_applications:spotify-adblock.desktop,3 services_applications:bitwarden.desktop
+
+[PlasmaTransientsConfig]
+PreloadWeight=34
+
+[PlasmaViews][Panel 1][Defaults]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1024]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1152]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1200]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1280]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1366]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1440]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1600]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1680]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1900]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1916]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1920]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal2048]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal800]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal864]
+thickness=45
+
+[ScreenConnectors]
+0=eDP-1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js

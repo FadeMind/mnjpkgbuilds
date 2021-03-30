@@ -1,0 +1,10 @@
+# KEYBOARD CONFIGURATION FILE
+
+# Consult the keyboard(5) manual page.
+
+XKBMODEL="asus_laptop"
+XKBLAYOUT="pl"
+XKBVARIANT=""
+XKBOPTIONS=""
+
+BACKSPACE="guess"

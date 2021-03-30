@@ -1,0 +1,23 @@
+[GPG Settings]
+gpg_config_path[$e]=$HOME/.gnupg/gpg.conf
+
+[General Options]
+First run=false
+
+[KFileDialog Settings]
+Recent Files[$e]=fademind-secret.asc,file:$HOME/Pobrane/gpg-20160514/fademind-secret.asc
+Recent URLs[$e]=file:$HOME/Pobrane/gpg-20160514/
+
+[KeyView]
+ColumnWidths=250,150,58,100,100,100,100
+SortAscending=true
+SortColumn=0
+
+[MainWindow]
+Height 768=708
+State=AAAA/wAAAAD9AAAAAAAABVYAAAJrAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=1366
+
+[TipOfDay]
+RunOnStart=false

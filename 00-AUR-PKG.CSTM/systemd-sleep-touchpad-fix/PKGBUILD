@@ -1,0 +1,21 @@
+# This is an example PKGBUILD file. Use this as a start to creating your own,
+# and remove these comments. For more information, see 'man PKGBUILD'.
+# NOTE: Please fill out the license field for your package! If it is unknown,
+# then please put 'unknown'.
+
+# Maintainer: Your Name <youremail@domain.com>
+pkgname=systemd-sleep-touchpad-fix
+pkgver=1
+pkgrel=1
+pkgdesc="Reload i2c_hid module after resume from suspend"
+arch=('any')
+url="https://unix.stackexchange.com/a/526488"
+license=('GPL')
+depends=('systemd')
+source=(touchpad)
+options=(!strip)
+md5sums=('ab1c7aea1dd38307fb6d71f5542aae94')
+
+package() {
+    install -Dm755 -t "${pkgdir}/usr/lib/systemd/system-sleep/"    ${srcdir}/touchpad
+}

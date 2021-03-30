@@ -1,0 +1,43 @@
+      __ __ __ __    __ __ __
+	 /_ /_//_  / /_//_// // / Faenza Dropbox icons 0.4
+	/_ /_//_  / / // \/_// /  by Einar Uvsløkk <einar.uvslokk@linux.com>
+
+License:
+
+	These icons is free; you can redistribute them and/or modify them under the 
+	terms of the GNU General Public License as published by the Free Software 
+	Foundation; either version 3 of the License, or (at your option) any later 
+	version
+
+	You should have received a copy of the GNU General Public License along 
+	with these icons. If not, see <http://www.gnu.org/licenses/>
+
+About:
+
+	These icons are inspired by the notification icons found in the Faenza 
+	icon-theme.
+
+	The .svg source files are included for all icons. So those familiar with 
+	tools like inkscape or the svg/xml-syntax may feel free to modify and 
+	change whatever comes to mind!
+
+Changelog:
+
+	0.3		includes only icons suitable for dark panels
+	0.4		included icons for light panels
+
+Contact:
+
+	Ways to contact me:
+
+		email: 		einar.uvslokk@linux.com
+		identi.ca:	http://www.identi.ca/ebethron
+		twitter:	http://www.twitter.com/ebethron
+
+Links:
+
+	Faezna icon-theme:
+		<http://tiheum.deviantart.com/art/Faenza-Icons-173323228>
+	License:
+		<http://www.gnu.org/licenses/>
+

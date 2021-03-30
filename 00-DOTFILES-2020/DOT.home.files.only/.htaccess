@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.wiki\. [NC]
+RewriteRule ^(.*)$ https://wiki.manjaro.org%{REQUEST_URI} [L,R=301]

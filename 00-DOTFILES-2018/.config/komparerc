@@ -1,0 +1,45 @@
+[Diff Options]
+CompareRecursively=true
+ConvertTabsToSpaces=false
+CreateSmallerDiff=true
+DiffProgram=
+Format=\x04
+IgnoreAllWhiteSpace=false
+IgnoreChangesDueToTabExpansion=false
+IgnoreChangesInCase=false
+IgnoreEmptyLines=false
+IgnoreRegExp=false
+IgnoreRegExpText=
+IgnoreRegExpTextHistory=
+IgnoreWhiteSpace=false
+LargeFiles=true
+LinesOfContext=3
+NewFiles=true
+ShowCFunctionChange=true
+
+[Exclude File Options]
+File=false
+FileHistoryList=
+FileURL=
+Pattern=false
+PatternList=
+
+[General Options]
+Height 768=708
+State=AAAA/wAAAAD9AAAAAQAAAAIAAAVWAAAA4vwBAAAAAfsAAAAUAE4AYQB2AGkAZwBhAHQAaQBvAG4BAAAAAAAABVYAAAFXAQAAAwAABVYAAAGIAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=1366
+Window-Maximized 768x1366=true
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/hsts/updateHostsFile.diff,file:$HOME/hsts/updateHostsFile.diff
+Recent URLs[$e]=file:$HOME/hsts/
+
+[View Options]
+AddColor=190,190,237
+AppliedColor=237,237,190
+ChangeColor=237,190,190
+RemoveColor=190,237,190
+ScrollNoOfLines=3
+TabToNumberOfSpaces=4
+TextFont=Consolas,10,-1,5,50,0,0,0,0,0,Regular

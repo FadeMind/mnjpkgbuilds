@@ -1,0 +1,69 @@
+[Containments][1][General]
+AppletOrder=2;3;4;5;6;7;8
+
+[Containments][8][General]
+extraItems=org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,org.kde.plasma.devicenotifier,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.printmanager
+knownItems=org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,org.kde.plasma.devicenotifier,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.printmanager
+showAllItems=true
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/.start.svgz,file:$HOME/.start.svgz
+
+[KPropertiesDialog]
+Height 768=449
+Width 1366=433
+
+[PlasmaRunnerManager]
+LaunchCounts=1 services_cookies.desktop,8 services_nvidia-settings.desktop,4 services_veracrypt.desktop,6 services_etcher-electron.desktop,12 services_clementine.desktop,1 services_wine-Programs-Spotify.desktop,2 services_libreoffice6.0-writer.desktop,2 services_org.kde.krusader.desktop,1 services_signal.desktop,3 services_google-chrome.desktop,1 services_org.kde.latte-dock.desktop,2 services_org.kde.kinfocenter.desktop,6 services_gparted.desktop,2 services_pinta.desktop,1 services_com.teamviewer.TeamViewer.desktop,1 services_plank.desktop,26 services_org.kde.kate.desktop,10 services_com.github.hluk.copyq.desktop,1 services_firefox.desktop,3 services_steam.desktop,1 services_sun_java-jre10.desktop,1 services_org.kde.trojita.desktop,1 services_lastpass.desktop,1 services_org.kde.kwalletmanager5.desktop,1 services_skype.desktop,2 services_masterpdfeditor4.desktop,1 services_MSOffice.desktop,1 services_keybase.desktop,1 services_shutter.desktop,3 services_msm_mhwd.desktop,10 services_org.kde.yakuake.desktop,1 services_octopi-cachecleaner.desktop,1 services_formats.desktop,2 services_org.kde.skanlite.desktop,2 services_org.kde.spectacle.desktop,1 services_org.kde.k3b.desktop,5 services_org.gnome.DiskUtility.desktop,13 services_libreoffice-writer.desktop,1 services_org.kde.dolphin.desktop,3 services_uget-gtk.desktop,1 services_gimp.desktop,1 services_ffmulticonverter.desktop,2 services_converseen.desktop,1 services_kwalletconfig5.desktop,6 services_bleachbit.desktop,10 services_skypeforlinux.desktop,2 services_qbittorrent.desktop,1 services_kcm_pulseaudio.desktop,1 services_pacmanlogviewer.desktop,1 services_manjaro-settings-manager.desktop,5 services_radiobox-desktop.desktop,1 services_octopi.desktop,2 services_/usr/bin/skypeforlinux --shutdown,6 services_hplip.desktop,1 services_kamera.desktop,3 services_thunderbird.desktop,4 services_jdownloader.desktop,1 services_brackets.desktop,1 services_fatrat.desktop,3 services_systemsettings.desktop,16 services_spotify.desktop,4 services_org.kde.kgpg.desktop,2 services_gufw.desktop,1 services_user_manager.desktop,1 services_org.kde.kamoso.desktop,1 services_copyq.desktop,2 services_tuxboot.desktop,10 services_vlc.desktop,4 services_org.kde.kcalc.desktop,1 services_youtube-dl-gui.desktop,1 services_org.kde.ksystemlog.desktop,6 services_bleachbit-root.desktop,11 services_org.kde.ksysguard.desktop
+pluginWhiteList=services
+
+[PlasmaViews][Panel 1][Horizontal1024]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1152]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1200]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1280]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1366]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1440]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1600]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1680]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1900]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1916]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1920]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal2048]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal800]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal864]
+thickness=45
+
+[PlasmaViews][Panel 45][Horizontal1366]
+thickness=34
+
+[ScreenConnectors]
+0=LVDS1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js

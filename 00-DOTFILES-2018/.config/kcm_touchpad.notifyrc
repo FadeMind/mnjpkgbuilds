@@ -1,0 +1,10 @@
+[Event/TouchpadDisabled]
+Action=
+Execute=
+Logfile=
+TTS=
+
+[Event/TouchpadEnabled]
+Execute=
+Logfile=
+TTS=

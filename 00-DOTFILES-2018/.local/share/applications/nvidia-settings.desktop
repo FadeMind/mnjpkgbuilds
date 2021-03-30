@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=NVIDIA X Server Settings
+Comment=Configure NVIDIA X Server Settings
+Exec=optirun -b none nvidia-settings -c :8
+Icon=nvidia-settings
+Categories=Settings;HardwareSettings;

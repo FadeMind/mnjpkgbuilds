@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment[pl_PL]= Wyłącz urządzenie USB
+Comment= Power off USB device
+Exec=udisks --detach /dev/sdb
+GenericName[pl_PL]= USB Suspend
+GenericName= USB Suspend
+Icon=media-eject
+Name[pl_PL]= USB Suspend
+Name= USB Suspend
+StartupNotify=false
+Terminal=false
+Type=Application
+X-KDE-SubstituteUID=false
+NoDisplay=True

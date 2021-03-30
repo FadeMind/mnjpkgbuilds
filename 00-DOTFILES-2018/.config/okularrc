@@ -1,0 +1,13 @@
+[Desktop Entry]
+FullScreen=false
+
+[MainWindow]
+Height 768=459
+State=AAAA/wAAAAD9AAAAAAAABVYAAAKBAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=902
+Window-Maximized 768x1366=true
+
+[Recent Files]
+File1[$e]=$HOME/GitHub/mnjpkgbuilds/00-GUIDE.POST.INST.MD/mime.inst.kde.md
+Name1[$e]=mime.inst.kde.md

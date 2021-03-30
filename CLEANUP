@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+find "$@" -type f -name *.bz2 -print -delete
+find "$@" -type f -name *.deb -print -delete
+find "$@" -type f -name *.gz -print -delete
+find "$@" -type f -name *.xz -print -delete
+find "$@" -type f -name *.rpm -print -delete
+find "$@" -type f -name .AURINFO -print -delete
+find "$@" -type f -name .BUILDINFO -print -delete
+find "$@" -type f -name .INSTALL -print -delete
+find "$@" -type f -name .MTREE -print -delete
+find "$@" -type f -name .PKGINFO -print -delete
+find "$@" -type f -name .SRCINFO -print -delete
+find "$@" -type f -name .directory -print -delete
+find "$@" -type f -name .gitignore -print -delete
+find "$@" -mindepth 2 -name "pkg" -type d -print -exec rm -rf {} +
+find "$@" -mindepth 2 -name "src" -type d -print -exec rm -rf {} +
+find "$@" -mindepth 2 -name ".SRCINFO" -type f -print -exec rm -rf {} +
+find "$@" -mindepth 2 -name ".gitignore" -type f -print -exec rm -rf {} +
+find "$@" -mindepth 2 -name ".git" -type d -print -exec rm -rf {} +
+find "$@" -type f -exec chmod 644 {} +
+find "$@" -type d -exec chmod 755 {} +
+if [ -f TREE ] ; then rm TREE && tree > TREE ; fi
+
+
+## References:
+## about $@ = https://stackoverflow.com/a/9995322/5351402
+## about + = https://stackoverflow.com/a/6085237/5351402

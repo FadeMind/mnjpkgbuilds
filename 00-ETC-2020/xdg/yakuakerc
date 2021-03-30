@@ -1,0 +1,12 @@
+[Appearance]
+Skin=breath2
+
+[Desktop Entry]
+DefaultProfile=Breath2.profile
+
+[Dialogs]
+FirstRun=false
+
+[Window]
+KeepOpen=false
+Width=80

@@ -1,0 +1,9 @@
+#!/bin/bash
+printf "==>> BEFORE CLEANING\n"
+du -h -d 0 $HOME/.cache/spotify
+printf "==>> CLEANING SPOTIFY CACHE...\n"
+rm -rf $HOME/.cache/spotify/Browser/Cache/* 
+rm -rf $HOME/.cache/spotify/Data/* 
+rm -rf $HOME/.cache/spotify/Storage/* 
+printf "==>> AFTER CLEANING\n"
+du -h -d 0 $HOME/.cache/spotify

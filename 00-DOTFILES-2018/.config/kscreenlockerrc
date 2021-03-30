@@ -1,0 +1,12 @@
+[$Version]
+update_info=kscreenlocker.upd:0.1-autolock
+
+[Daemon]
+Autolock=false
+LockOnResume=false
+
+[Greeter]
+Theme=org.kde.breeze.desktop
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/Abstract Gray/contents/images/1920x1080.jpg

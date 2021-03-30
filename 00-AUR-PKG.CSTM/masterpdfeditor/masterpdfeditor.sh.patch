@@ -1,0 +1,12 @@
+--- a/masterpdfeditor5.sh  2020-03-27 10:57:36.818464325 +0100
++++ b/masterpdfeditor5.sh  2020-03-27 10:58:22.561935668 +0100
+@@ -1,7 +1,7 @@
+ #!/bin/sh
+  appname=`basename $0 | sed s,\.sh$,,`
+- libpath=$(cd "$(dirname "$0")"; pwd)
+- dirname=`dirname $0`
++ libpath="$(cd $(dirname "$(readlink -f "$0")"); pwd)"
++ dirname="$libpath"
+  tmp="${dirname#?}"
+  
+  if [ "${dirname%$tmp}" != "/" ]; then

@@ -1,0 +1,39 @@
+[CompactMode]
+FontWeight=50
+
+[DetailsMode]
+FontWeight=50
+
+[General]
+ShowToolTips=true
+Version=200
+ViewPropsTimestamp=2018,2,7,8,39,36
+
+[IconsMode]
+FontWeight=50
+
+[KFileDialog Settings]
+Recent Files[$e]=
+Recent URLs[$e]=
+
+[KPropertiesDialog]
+Height 768=438
+Width 1366=385
+
+[MainWindow]
+Height 768=708
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAACdAAACnvwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAmAAAAlAAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAmAAACngAAAFoBAAADAAAAAQAAALgAAAKe/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAACYAAAKeAAAACgEAAAMAAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAoBAAADAAAEuAAAAp4AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1366=1366
+Window-Maximized 768x1366=true
+
+[PreviewSettings]
+Plugins=blenderthumbnail,kraorathumbnail,directorythumbnail,comicbookthumbnail,opendocumentthumbnail,imagethumbnail,exrthumbnail,jpegthumbnail,windowsimagethumbnail,svgthumbnail,djvuthumbnail,mobithumbnail,gsthumbnail,rawthumbnail,fontthumbnail,audiothumbnail,ffmpegthumbs,textthumbnail,windowsexethumbnail,htmlthumbnail,pothumbnail,epubthumbnail
+
+[SettingsDialog]
+Height 768=478
+Width 1366=563
+
+[VersionControl]
+enabledPlugins=Git

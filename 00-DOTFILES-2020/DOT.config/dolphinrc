@@ -1,0 +1,37 @@
+[CompactMode]
+FontWeight=50
+PreviewSize=16
+
+[DetailsMode]
+FontWeight=50
+
+[General]
+Version=200
+ViewPropsTimestamp=2020,10,17,10,36,10
+
+[IconsMode]
+FontWeight=50
+
+[KPropertiesDialog]
+eDP-1 Height 1080=560
+eDP-1 Height 864=456
+eDP-1 Width 1536=441
+eDP-1 Width 1920=511
+
+[MainWindow]
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAC4AAADsPwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAIA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAA1AAADsAAAAFQA////AAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAAAgD///8AAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAIA////AAAGxAAAA7AAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+eDP-1 Height 1080=997
+eDP-1 Width 1920=1920
+eDP-1 Window-Maximized 1080x1920=true
+eDP-1 Window-Maximized 864x1536=true
+eDP-1 XPosition=0
+eDP-1 YPosition=38
+
+[PreviewSettings]
+Plugins=appimagethumbnail,opendocumentthumbnail,kraorathumbnail,ebookthumbnail,directorythumbnail,comicbookthumbnail,imagethumbnail,exrthumbnail,jpegthumbnail,windowsimagethumbnail,svgthumbnail,blenderthumbnail,fontthumbnail,djvuthumbnail,audiothumbnail,ffmpegthumbs,cursorthumbnail,gsthumbnail,rawthumbnail,textthumbnail,windowsexethumbnail
+
+[SettingsDialog]
+eDP-1 Height 1080=596
+eDP-1 Width 1920=788

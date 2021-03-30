@@ -1,0 +1,42 @@
+[ConfigDialog]
+Height 768=252
+Width 1366=437
+
+[DownloadDialog Settings]
+Height 768=509
+Width 1366=700
+
+[HTML Settings]
+AutomaticDetectionLanguage=1
+
+[KFileDialog Settings]
+Recent Files[$e]=
+
+[KPropertiesDialog]
+Height 768=449
+Width 1366=419
+
+[Main]
+ActiveView=icon_mode
+
+[MainWindow]
+Height 768=459
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABVYAAAKjAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=902
+Window-Maximized 768x1366=true
+
+[Notification Messages]
+FontSettingsChanged=false
+
+[Open-with settings]
+CompletionMode=5
+History=
+
+[PlasmaRunnerManager]
+LaunchCounts=
+
+[classic_mode]
+autoExpandOneLevel=false
+viewLayout=455,910

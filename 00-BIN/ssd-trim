@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+export BD=$(tput bold)
+export NM=$(tput sgr0)
+export LOG=/var/log/ssd-trim.log
+export LANG=C
+
+function fstrim_run() {
+    echo "*** $(date -R) ***" >> $LOG
+    printf "${BD}INFO ::: Running fstrim command for / mount point... please wait...${NM}\n"
+    fstrim -v / >> $LOG
+    echo "***************************************" >> $LOG
+    printf "${BD}INFO ::: fstrim command finished job.${NM}\n"
+    cat $LOG
+}
+
+
+if [ "$(whoami)" == "root" ] ; then
+    if [ -f "/usr/bin/fstrim" ] ; then 
+    fstrim_run
+else
+    printf "${BD}ERROR :::: fstrim tool is not installed!. Exit.${NM}\n"
+    die
+fi
+else
+    printf "${BD}ERROR :::: Run this script as root!${NM}\n"
+    die
+fi

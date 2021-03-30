@@ -1,0 +1,36 @@
+[General]
+shadeSortColumn=true
+BrowserApplication=firefox
+ColorScheme=Breath2
+Name=Breath2
+fixed=Noto Mono,10,-1,0,50,0,0,0,0,0
+font=Noto Sans,10,-1,5,50,0,0,0,0,0
+menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0
+smallestReadableFont=Noto Sans,8,-1,5,50,0,0,0,0,0
+toolBarFont=Noto Sans,9,-1,5,50,0,0,0,0,0
+
+[Icons]
+Theme=breath2
+
+[KDE]
+SingleClick=false
+ChangeCursor=true
+ColorScheme=Breath2
+contrast=7
+LookAndFeelPackage=org.kde.breath2.desktop
+widgetStyle=breeze
+
+[Paths]
+Trash=$HOME/Desktop/Trash/
+
+[PreviewSettings]
+MaximumSize=3145728
+camera=true
+file=true
+fonts=true
+
+[Directories]
+dir_pixmap=/usr/share/pixmaps
+
+[KFileDialog Settings]
+Breadcrumb Navigation=true

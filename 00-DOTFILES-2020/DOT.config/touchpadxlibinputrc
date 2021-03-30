@@ -1,0 +1,5 @@
+[ELAN1300:00 04F3:3057 Touchpad]
+enabled=true
+
+[SynPS/2 Synaptics TouchPad]
+tapToClick=true

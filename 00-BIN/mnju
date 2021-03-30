@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+REPOPATH="$HOME/DEV.mnju"
+REPOURL="https://github.com/manjaro"
+REPONAMES="packages-community packages-core packages-extra"
+if [ ! -d "$REPOPATH" ]; then
+    mkdir -p "$REPOPATH"
+fi
+if [ ! -e "$REPOPATH/.LOCK" ]; then
+    touch "$REPOPATH/.LOCK"
+    cd $REPOPATH
+    for i in $REPONAMES
+        do
+            git clone --depth 1 "$REPOURL/$i.git"
+    done
+else
+    for i in $REPONAMES
+        do
+            cd "$REPOPATH/$i" && git stash;git pull
+    done
+fi
+xdg-open $REPOPATH

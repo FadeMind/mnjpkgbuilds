@@ -1,0 +1,4 @@
+[Bootstrap]
+InstallMode=<installmode>
+ProductKey=LibreOffice 7.0
+UserInstallation=$SYSUSERCONFIG/libreoffice/4

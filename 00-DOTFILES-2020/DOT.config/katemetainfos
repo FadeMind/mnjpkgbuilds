@@ -1,0 +1,875 @@
+[file:///etc/fonts/fonts.conf]
+Bookmarks=
+Checksum=763e9d339f239cbd09770f6b1d512ae6e284e2a2
+Encoding=UTF-8
+Highlighting=XML
+Highlighting Set By User=false
+Indentation Mode=xml
+Mode=XML
+Mode Set By User=false
+Time=2020,10,18,6,30,29
+URL=file:///etc/fonts/fonts.conf
+
+[file:///etc/hosts]
+Bookmarks=
+Checksum=7ee548ce83eeabd40ab27f0d88d8c2f03f000d3e
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,19,37,43
+URL=file:///etc/hosts
+
+[file:///etc/profile.d/jre.sh]
+Bookmarks=
+Checksum=4bc7a85ccd7febab6438d1ce0e032ce52b1f21c6
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,10,18,6,18,11
+URL=file:///etc/profile.d/jre.sh
+
+[file:///etc/profile.d/jre.sh.pacnew]
+Bookmarks=
+Checksum=4bc7a85ccd7febab6438d1ce0e032ce52b1f21c6
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,18,6,18,6
+URL=file:///etc/profile.d/jre.sh.pacnew
+
+[file:///etc/xdg/autostart/pamac-tray-appindicator.desktop]
+Bookmarks=
+Checksum=df40f9ffce44ef9239ef4c83dc972682e273cd08
+Encoding=UTF-8
+Highlighting=.desktop
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=.desktop
+Mode Set By User=false
+Time=2020,10,17,11,42,11
+URL=file:///etc/xdg/autostart/pamac-tray-appindicator.desktop
+
+[file:///etc/xdg/autostart/pamac-tray-plasma.desktop]
+Bookmarks=
+Checksum=2471198dd90bbcb5bcb828e7533ed5d104e2a565
+Encoding=UTF-8
+Highlighting=.desktop
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=.desktop
+Mode Set By User=false
+Time=2020,10,17,11,15,33
+URL=file:///etc/xdg/autostart/pamac-tray-plasma.desktop
+
+[file:///etc/xdg/autostart/pamac-tray.desktop]
+Bookmarks=
+Checksum=a3d0907ae14d549a043319e93632facfd031030e
+Encoding=UTF-8
+Highlighting=.desktop
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=.desktop
+Mode Set By User=false
+Time=2020,10,17,11,14,35
+URL=file:///etc/xdg/autostart/pamac-tray.desktop
+
+[file:///home/fademind/.bash_history]
+Bookmarks=
+Checksum=01d270f393a7aea71835d0eb7c31d325adc787ed
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,17,11,55
+URL=file:///home/fademind/.bash_history
+
+[file:///home/fademind/.bashrc]
+Bookmarks=
+Checksum=7f81b75afdaf002eeb3f9b1ca14f2320fbcf870a
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,10,17,15,25,58
+URL=file:///home/fademind/.bashrc
+
+[file:///home/fademind/.config/autostart/imwheel.desktop]
+Bookmarks=
+Checksum=ae412bb769bfb8f8629e9609e5b2a6df439f9078
+Encoding=UTF-8
+Highlighting=.desktop
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=.desktop
+Mode Set By User=false
+Time=2020,10,17,17,2,55
+URL=file:///home/fademind/.config/autostart/imwheel.desktop
+
+[file:///home/fademind/.config/autostart/org.kde.yakuake.desktop]
+Bookmarks=
+Checksum=764aa1d3ce395bdf13912b07c57c65572d11bd53
+Encoding=UTF-8
+Highlighting=.desktop
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=.desktop
+Mode Set By User=false
+Time=2020,10,17,17,55,35
+URL=file:///home/fademind/.config/autostart/org.kde.yakuake.desktop
+
+[file:///home/fademind/.config/birdtray-config.json]
+Bookmarks=
+Checksum=2c8ea72e761f74e688362df2d35d3fd616abd8c6
+Encoding=UTF-8
+Highlighting=JSON
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=JSON
+Mode Set By User=false
+Time=2020,10,17,15,56,11
+URL=file:///home/fademind/.config/birdtray-config.json
+
+[file:///home/fademind/.config/birdtrayrc]
+Bookmarks=
+Checksum=afd5d8549c6d49285624ef0b0bb7aa8f5365efb8
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,15,55,54
+URL=file:///home/fademind/.config/birdtrayrc
+
+[file:///home/fademind/.config/chrome-flags.conf]
+Bookmarks=
+Checksum=bda43d04b536817a62a27dbf33697a0b03ffe57e
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,18,7,32,48
+URL=file:///home/fademind/.config/chrome-flags.conf
+
+[file:///home/fademind/.config/gtk-2.0/gtkfilechooser.ini]
+Bookmarks=
+Checksum=ec3f9726f0973e7189c726009a15f169622cbf89
+Encoding=UTF-8
+Highlighting=INI Files
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=INI Files
+Mode Set By User=false
+Time=2020,10,18,7,51,9
+URL=file:///home/fademind/.config/gtk-2.0/gtkfilechooser.ini
+
+[file:///home/fademind/.config/gtk-3.0/colors.css]
+Bookmarks=
+Checksum=3e103df10f3aac8be553563c49d3d3db506559d4
+Encoding=UTF-8
+Highlighting=CSS
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=CSS
+Mode Set By User=false
+Time=2020,10,18,5,56,52
+URL=file:///home/fademind/.config/gtk-3.0/colors.css
+
+[file:///home/fademind/.config/gtk-3.0/gtk.css]
+Bookmarks=
+Checksum=492c72566f983e6b5e45e5eb46b9cf363b9f7385
+Encoding=UTF-8
+Highlighting=CSS
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=CSS
+Mode Set By User=false
+Time=2020,10,18,7,49,17
+URL=file:///home/fademind/.config/gtk-3.0/gtk.css
+
+[file:///home/fademind/.config/gtk-3.0/settings.ini]
+Bookmarks=
+Checksum=987ef78b1b77fae567413c1871d84a45d73e36a5
+Encoding=UTF-8
+Highlighting=INI Files
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=INI Files
+Mode Set By User=false
+Time=2020,10,18,7,48,7
+URL=file:///home/fademind/.config/gtk-3.0/settings.ini
+
+[file:///home/fademind/.config/gtkrc]
+Bookmarks=
+Checksum=0b8709314be75e094d018eb7c530708e05aeea7c
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,18,5,52,21
+URL=file:///home/fademind/.config/gtkrc
+
+[file:///home/fademind/.config/gtkrc-2.0]
+Bookmarks=
+Checksum=80af914401796305b18303b40f08ba20fccf546b
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,18,5,52,30
+URL=file:///home/fademind/.config/gtkrc-2.0
+
+[file:///home/fademind/.config/plasma-org.kde.plasma.desktop-appletsrc]
+Bookmarks=
+Checksum=e811744c092dc9ca595fca4548b2d3d08d11b705
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,15,8,18
+URL=file:///home/fademind/.config/plasma-org.kde.plasma.desktop-appletsrc
+
+[file:///home/fademind/.config/plasma-workspace/env/envars.sh]
+Bookmarks=
+Checksum=bddf6587dcdbb8384d8d5f6325b3d5011e6cba56
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,10,17,18,44,27
+URL=file:///home/fademind/.config/plasma-workspace/env/envars.sh
+
+[file:///home/fademind/.config/plasmarc]
+Bookmarks=
+Checksum=f8956ae9370b34d5d80e2126c1089907572c69fe
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,18,29,38
+URL=file:///home/fademind/.config/plasmarc
+
+[file:///home/fademind/.config/systemd/user/imwheel.service]
+Bookmarks=
+Checksum=1439baa679a1ca6af313ebeed71f0823dcfc0213
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,17,1,11
+URL=file:///home/fademind/.config/systemd/user/imwheel.service
+
+[file:///home/fademind/.config/yay/config.json]
+Bookmarks=
+Checksum=9ea46d5644adc6f91b32972fb9578c3566de7dec
+Encoding=UTF-8
+Highlighting=JSON
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=JSON
+Mode Set By User=false
+Time=2020,10,17,8,40,42
+URL=file:///home/fademind/.config/yay/config.json
+
+[file:///home/fademind/.fonts.conf]
+Bookmarks=
+Checksum=7d1b758e8e4da705d45e81f1cbb11fd016e88670
+Encoding=UTF-8
+Highlighting=XML
+Highlighting Set By User=false
+Indentation Mode=xml
+Mode=XML
+Mode Set By User=false
+Time=2020,10,17,13,32,17
+URL=file:///home/fademind/.fonts.conf
+
+[file:///home/fademind/.gitconfig]
+Bookmarks=
+Checksum=5df0c2088e3e84de8650a2b68c971bda55f7666e
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,14,36,29
+URL=file:///home/fademind/.gitconfig
+
+[file:///home/fademind/.gnupg/dirmngr.conf]
+Bookmarks=
+Checksum=d0c88cc42b16b8bab563eea214deea998a7945bc
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,14,31,28
+URL=file:///home/fademind/.gnupg/dirmngr.conf
+
+[file:///home/fademind/.gnupg/gpg-agent.conf]
+Bookmarks=
+Checksum=d24e79980840ab8c3fadcc0435d2889d81578b4f
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,14,31,51
+URL=file:///home/fademind/.gnupg/gpg-agent.conf
+
+[file:///home/fademind/.gnupg/gpg.conf]
+Bookmarks=
+Checksum=86c5625a2967a870b2386d7978a81b6ffe27dcd1
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,14,34,0
+URL=file:///home/fademind/.gnupg/gpg.conf
+
+[file:///home/fademind/.imwheelrc]
+Bookmarks=
+Checksum=164f0316d7b021e619a90e4506a011765b2393ba
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,16,45,24
+URL=file:///home/fademind/.imwheelrc
+
+[file:///home/fademind/00-GUIDE.POST.INST.MD/guide.post.inst.md]
+Bookmarks=
+Checksum=59b793ccff5bd90680cf95af3ec29d84c5b51a51
+Encoding=UTF-8
+Highlighting=Markdown
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Markdown
+Mode Set By User=false
+Time=2020,10,17,9,22,38
+URL=file:///home/fademind/00-GUIDE.POST.INST.MD/guide.post.inst.md
+
+[file:///home/fademind/GitHub/00-HSTS.EXT/extensions/gambling/hosts]
+Bookmarks=
+Checksum=e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,20,19,2
+URL=file:///home/fademind/GitHub/00-HSTS.EXT/extensions/gambling/hosts
+
+[file:///home/fademind/GitHub/00-HSTS.EXT/hosts]
+Bookmarks=
+Checksum=944c37ac0e80df8abf36a1a5b2715e1bb138d8a4
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,18,6,15,8
+URL=file:///home/fademind/GitHub/00-HSTS.EXT/hosts
+
+[file:///home/fademind/GitHub/00-HSTS.EXT/hosts.default]
+Bookmarks=
+Checksum=7ee548ce83eeabd40ab27f0d88d8c2f03f000d3e
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,19,50,14
+URL=file:///home/fademind/GitHub/00-HSTS.EXT/hosts.default
+
+[file:///home/fademind/GitHub/00-HSTS.EXT/hosts.skel]
+Bookmarks=
+Checksum=eb288b9c8debd66e07dcddaca26e1477bed668a2
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,19,49,26
+URL=file:///home/fademind/GitHub/00-HSTS.EXT/hosts.skel
+
+[file:///home/fademind/GitHub/00-HSTS.EXT/updateHostsLinux.sh]
+Bookmarks=
+Checksum=1899dfdc48ee8c4144bcd835475b3c2090ee2647
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,10,17,19,48,1
+URL=file:///home/fademind/GitHub/00-HSTS.EXT/updateHostsLinux.sh
+
+[file:///home/fademind/GitHub/00-HSTS.EXT/updateHostsWindows.bat]
+Bookmarks=
+Checksum=de17bf2b42a892fdce2b04a33d87dd52ae0e7169
+Encoding=UTF-8
+Highlighting=MS-DOS Batch
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=MS-DOS Batch
+Mode Set By User=false
+Time=2020,10,17,19,37,22
+URL=file:///home/fademind/GitHub/00-HSTS.EXT/updateHostsWindows.bat
+
+[file:///home/fademind/GitHub/00-HSTS.EXT/whitelist]
+Bookmarks=
+Checksum=d21015ffd9019e990cd14bb756a238a9922cb7c4
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,19,37,22
+URL=file:///home/fademind/GitHub/00-HSTS.EXT/whitelist
+
+[file:///home/fademind/GitHub/mnjpkgbuilds/00-BIN/clean-temp-cache]
+Bookmarks=
+Checksum=dac418e5a5470e93c8e70f98030a64941e0e51fc
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,10,18,6,15,32
+URL=file:///home/fademind/GitHub/mnjpkgbuilds/00-BIN/clean-temp-cache
+
+[file:///home/fademind/GitHub/mnjpkgbuilds/00-BIN/clean-useless-aur]
+Bookmarks=
+Checksum=889a88b381845a83dc5510182856bbbe960cee83
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,10,18,6,15,6
+URL=file:///home/fademind/GitHub/mnjpkgbuilds/00-BIN/clean-useless-aur
+
+[file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2019/.config/gtk-2.0/gtkfilechooser.ini]
+Bookmarks=
+Checksum=78150c9062dd6a5e7f971f83d8a451fbe298b37b
+Encoding=UTF-8
+Highlighting=INI Files
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=INI Files
+Mode Set By User=false
+Time=2020,10,18,5,51,13
+URL=file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2019/.config/gtk-2.0/gtkfilechooser.ini
+
+[file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2019/.config/gtk-3.0/settings.ini]
+Bookmarks=
+Checksum=04508b27ecbba633ec420448a182dbd49bfd6bf3
+Encoding=UTF-8
+Highlighting=INI Files
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=INI Files
+Mode Set By User=false
+Time=2020,10,18,5,51,26
+URL=file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2019/.config/gtk-3.0/settings.ini
+
+[file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2019/.config/gtkrc]
+Bookmarks=
+Checksum=407d9069b7d025bbbdb5628497f6fb1279537758
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,18,5,52,0
+URL=file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2019/.config/gtkrc
+
+[file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2019/.config/gtkrc-2.0]
+Bookmarks=
+Checksum=45581c5ba518eba75759a76968e684da15ecc1a6
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,18,5,52,37
+URL=file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2019/.config/gtkrc-2.0
+
+[file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2020/DOT.config/gtk-2.0/gtkfilechooser.ini]
+Bookmarks=
+Checksum=4f4b1736326320ab70ea0d4bc025436ed7c52c84
+Encoding=UTF-8
+Highlighting=INI Files
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=INI Files
+Mode Set By User=false
+Time=2020,10,18,7,51,9
+URL=file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2020/DOT.config/gtk-2.0/gtkfilechooser.ini
+
+[file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2020/DOT.config/gtk-3.0/colors.css]
+Bookmarks=
+Checksum=b6b6b323381faf36328b4ea3de61928bb6dc0cc6
+Encoding=UTF-8
+Highlighting=CSS
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=CSS
+Mode Set By User=false
+Time=2020,10,18,7,48,37
+URL=file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2020/DOT.config/gtk-3.0/colors.css
+
+[file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2020/DOT.config/gtk-3.0/gtk.css]
+Bookmarks=
+Checksum=492c72566f983e6b5e45e5eb46b9cf363b9f7385
+Encoding=UTF-8
+Highlighting=CSS
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=CSS
+Mode Set By User=false
+Time=2020,10,18,7,49,17
+URL=file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2020/DOT.config/gtk-3.0/gtk.css
+
+[file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2020/DOT.config/gtk-3.0/settings.ini]
+Bookmarks=
+Checksum=987ef78b1b77fae567413c1871d84a45d73e36a5
+Encoding=UTF-8
+Highlighting=INI Files
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=INI Files
+Mode Set By User=false
+Time=2020,10,18,7,48,7
+URL=file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2020/DOT.config/gtk-3.0/settings.ini
+
+[file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2020/DOT.config/gtkrc]
+Bookmarks=
+Checksum=a4bf9851fef0763a8393115324f1d4b695543d01
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,18,5,50,37
+URL=file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2020/DOT.config/gtkrc
+
+[file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2020/DOT.config/gtkrc-2.0]
+Bookmarks=
+Checksum=55a0909f03d726132485b80e75ddf245fe0ad5a7
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,18,5,50,32
+URL=file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2020/DOT.config/gtkrc-2.0
+
+[file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2020/DOT.home.files.only/.fonts.conf]
+Bookmarks=
+Checksum=1481ca5c2ea0aa17fb68d42dc3989b31cfe2beb0
+Encoding=UTF-8
+Highlighting=XML
+Highlighting Set By User=false
+Indentation Mode=xml
+Mode=XML
+Mode Set By User=false
+Time=2020,10,18,7,32,46
+URL=file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2020/DOT.home.files.only/.fonts.conf
+
+[file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2020/DOT.home.files.only/.gtkrc-2.0]
+Bookmarks=
+Checksum=e8eceaf19293a5661a058b5e7d7ef294554be2d3
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,18,7,33,13
+URL=file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2020/DOT.home.files.only/.gtkrc-2.0
+
+[file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2020/DOT.local/share/applications/designer-qt4.desktop]
+Bookmarks=
+Checksum=35947472df0d262576dcf75ff05194fc64ac6f9d
+Encoding=UTF-8
+Highlighting=.desktop
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=.desktop
+Mode Set By User=false
+Time=2020,10,18,7,32,19
+URL=file:///home/fademind/GitHub/mnjpkgbuilds/00-DOTFILES-2020/DOT.local/share/applications/designer-qt4.desktop
+
+[file:///home/fademind/GitHub/mnjpkgbuilds/00-GUIDE.POST.INST.MD/guide.post.inst.md]
+Bookmarks=
+Checksum=b6ab00b3027b9e519aba2da1917689000deea8bb
+Encoding=UTF-8
+Highlighting=Markdown
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Markdown
+Mode Set By User=false
+Time=2020,10,17,17,11,55
+URL=file:///home/fademind/GitHub/mnjpkgbuilds/00-GUIDE.POST.INST.MD/guide.post.inst.md
+
+[file:///home/fademind/GitHub/mnjpkgbuilds/00-GUIDE.POST.INST.MD/ssh_gpg_setup.md]
+Bookmarks=
+Checksum=2a14be5fdff3b45d73ef63c7e29f5681c5068408
+Encoding=UTF-8
+Highlighting=Markdown
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Markdown
+Mode Set By User=false
+Time=2020,10,17,16,31,56
+URL=file:///home/fademind/GitHub/mnjpkgbuilds/00-GUIDE.POST.INST.MD/ssh_gpg_setup.md
+
+[file:///home/fademind/GitHub/mnjpkgbuilds/pkglist-aur.txt]
+Bookmarks=
+Checksum=b9bcaa3c6ec17985202dd31f4b42afa8e8c38acb
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,18,7,32,48
+URL=file:///home/fademind/GitHub/mnjpkgbuilds/pkglist-aur.txt
+
+[file:///home/fademind/GitHub/mnjpkgbuilds/pkglist-repo.txt]
+Bookmarks=
+Checksum=d7876a59583e8ddf6ec161e2355876fc4fa607cc
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,18,7,32,21
+URL=file:///home/fademind/GitHub/mnjpkgbuilds/pkglist-repo.txt
+
+[file:///home/fademind/Pobrane/cookiebro-whitelist.txt]
+Bookmarks=
+Checksum=ee98c8498af7dcb865a6e30599c348ffa2d4c36d
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,17,55,38
+URL=file:///home/fademind/Pobrane/cookiebro-whitelist.txt
+
+[file:///home/fademind/Pobrane/copyq/dmesg.log]
+Bookmarks=
+Checksum=6067d0a5d70364360e6276fc80e62803cd969052
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,11,49,9
+URL=file:///home/fademind/Pobrane/copyq/dmesg.log
+
+[file:///home/fademind/Pobrane/justdomains]
+Bookmarks=
+Checksum=4edbdf0fe5c5e59260a4a60a5b556daf3c2b38e7
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,19,18,42
+URL=file:///home/fademind/Pobrane/justdomains
+
+[file:///home/fademind/Pobrane/spywaredomains.zones.20200813]
+Bookmarks=
+Checksum=64c83775f8a66cdbde94a53712bb708ac73e03b1
+Encoding=UTF-8
+Highlighting=C
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C
+Mode Set By User=false
+Time=2020,10,18,7,11,11
+URL=file:///home/fademind/Pobrane/spywaredomains.zones.20200813
+
+[file:///home/fademind/Pulpit/vs.sh]
+Bookmarks=
+Checksum=30d79dbd19dbe284cc790a72672386fbb4c5195e
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,10,17,20,19,52
+URL=file:///home/fademind/Pulpit/vs.sh
+
+[file:///home/fademind/bin/clean-pacnew]
+Bookmarks=
+Checksum=44ce85989a059b3f6fc98ebec2edbb8818e16fc2
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,10,18,6,15,50
+URL=file:///home/fademind/bin/clean-pacnew
+
+[file:///home/fademind/copyq/PKGBUILD]
+Bookmarks=
+Checksum=f45d7fd2db0b58e88d335a5c3d8c87a216740496
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,10,17,10,12,57
+URL=file:///home/fademind/copyq/PKGBUILD
+
+[file:///home/fademind/dmesg.log]
+Bookmarks=
+Checksum=eec022c744b28a91db9135c33f3f22a9ef6b46a1
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,18,7,56
+URL=file:///home/fademind/dmesg.log
+
+[file:///home/fademind/dmesg2.log]
+Bookmarks=
+Checksum=2de6b2843697c954050c65da1ae0e743370fbd24
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,18,9,15
+URL=file:///home/fademind/dmesg2.log
+
+[file:///home/fademind/mnjpkgbuilds-master/00-DOTFILES-2020/DOT.home.files.only/.bash_profile]
+Bookmarks=
+Checksum=754b65a30ccd77b74fe02c6f88cffb0d28c0ca35
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,10,17,11,46,23
+URL=file:///home/fademind/mnjpkgbuilds-master/00-DOTFILES-2020/DOT.home.files.only/.bash_profile
+
+[file:///home/fademind/mnjpkgbuilds-master/00-GUIDE.POST.INST.MD/guide.post.inst.md]
+Bookmarks=
+Checksum=59b793ccff5bd90680cf95af3ec29d84c5b51a51
+Encoding=UTF-8
+Highlighting=Markdown
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Markdown
+Mode Set By User=false
+Time=2020,10,17,13,44,24
+URL=file:///home/fademind/mnjpkgbuilds-master/00-GUIDE.POST.INST.MD/guide.post.inst.md
+
+[file:///home/fademind/pkglist-repo.txt]
+Bookmarks=
+Checksum=d7ee9354b360fd6ce8a979affbf1cc529f055865
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,9,15,31
+URL=file:///home/fademind/pkglist-repo.txt
+
+[file:///home/fademind/sddm.conf.d/hidpi.conf]
+Bookmarks=
+Checksum=7be03d9b38540805d0f710ec650483361869e185
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,9,28,22
+URL=file:///home/fademind/sddm.conf.d/hidpi.conf
+
+[file:///home/fademind/sddm.conf.d/kde_settings.conf]
+Bookmarks=
+Checksum=62c872c39a26431b8707b4b09e8effd4e6b5bdd5
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,10,17,9,28,31
+URL=file:///home/fademind/sddm.conf.d/kde_settings.conf
+
+[file:///home/fademind/spotify/PKGBUILD]
+Bookmarks=
+Checksum=a8307e363eca1c42f784dec0b49b8e26b2a26844
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,10,17,19,58,5
+URL=file:///home/fademind/spotify/PKGBUILD

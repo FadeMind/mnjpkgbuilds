@@ -1,0 +1,36 @@
+[CreateDialog]
+LastMimeType=application/x-xz-compressed-tar
+
+[MainWindow]
+Height 768=480
+State=AAAA/wAAAAD9AAAAAAAAA/cAAAGdAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+Width 1366=1015
+showInfoPanel=false
+splitterSizes=911,103
+
+[Recent Files]
+File1[$e]=$HOME/Dokumenty/SSH&GPG.7z
+File2[$e]=$HOME/BKP/2018/2018-03/rc.config-20180318-MNJ.7z
+File3[$e]=$HOME/BKP/2018/2018-03/dot.files-20180318-MNJ.7z
+File4[$e]=$HOME/BKP/2018/2018-03/etc-20180330-MNJ.tar.xz
+File5[$e]=$HOME/BKP/2018/2018-04/local-share-applications.tar.gz
+File6[$e]=$HOME/BKP/2018/2018-04/etc-20180409-MNJ.tar.xz
+File7[$e]=$HOME/BKP/2018/2018-04/google-chrome-20180408-MNJ.tar.xz
+File8[$e]=$HOME/Pobrane/1913116
+Name1[$e]=SSH&GPG.7z
+Name2[$e]=rc.config-20180318-MNJ.7z
+Name3[$e]=dot.files-20180318-MNJ.7z
+Name4[$e]=etc-20180330-MNJ.tar.xz
+Name5[$e]=local-share-applications.tar.gz
+Name6[$e]=etc-20180409-MNJ.tar.xz
+Name7[$e]=google-chrome-20180408-MNJ.tar.xz
+Name8[$e]=1913116
+
+[Viewer]
+Height 768=702
+State=AAAA/wAAAAD9AAAAAAAAAiMAAAKhAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+Width 1366=547

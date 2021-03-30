@@ -1,0 +1,9 @@
+[Desktops]
+Number=2
+
+[Plugins]
+blurEnabled=true
+contrastEnabled=false
+
+[Effect-PresentWindows]
+LayoutMode=1

@@ -1,0 +1,3 @@
+[Added Associations]
+application/xhtml+xml=google-chrome.desktop;org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;firefox.desktop;
+text/html=google-chrome.desktop;firefox.desktop;org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;

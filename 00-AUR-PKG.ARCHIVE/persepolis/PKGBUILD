@@ -1,0 +1,27 @@
+# $Id$persepolis-git
+# Maintainer: Mohammadreza Abdollahzadeh <morealaz at gmail dot com>
+_commit=89e602cc404b4283e0c6f3810265f47c0769510a
+pkgname='persepolis'
+pkgver=3.1.0
+pkgrel=3
+pkgdesc="A graphical front-end for aria2 download manager with lots of features."
+arch=('any')
+url="https://persepolisdm.github.io/"
+license=('GPL3')
+depends=('aria2' 'libnotify' 'libpulse' 'python' 'python-psutil' 'python-pyqt5' 'python-requests' 'python-setproctitle' 'qt5-svg' 'sound-theme-freedesktop' 'youtube-dl')
+makedepends=('python-setuptools')
+optdepends=('adwaita-qt5: for using adwaita style in GTK based Desktops.')
+# source=("${pkgname}-${pkgver}.tar.gz::https://github.com/persepolisdm/persepolis/archive/${pkgver}.tar.gz")
+source=(https://github.com/persepolisdm/persepolis/archive/$_commit.tar.gz)
+sha256sums=('05dbf589bf605ed4fdc5e077534725e0ec4037ce877ef5661e66c784dfbeb905')
+
+prepare() {
+    cd "${pkgname}-${_commit}"
+    gzip -k -9 ./man/persepolis.1
+}
+
+package() {
+	cd "${pkgname}-${_commit}"
+	python setup.py install --root="$pkgdir/" --prefix=/usr --optimize=1
+}
+# vim:set ts=2 sw=2 et:

@@ -1,0 +1,4 @@
+[KFileDialog Settings]
+Recent Files[$e]=octopi_red.png,file:$HOME/.icons/octopi_transparent.png,file:$HOME/.icons/octopi_green.png,file:$HOME/.icons/octopi_yellow.png,file:$HOME/.icons/octopi_red.png,file:$HOME/.icons/octopi_transparent.svg,file:$HOME/.icons/octopi_green.svg,file:$HOME/.icons/octopi_yellow.svg,file:$HOME/.icons/octopi_red.svg
+Recent URLs[$e]=file:$HOME/.icons/,file:$HOME/,file:$HOME/Pulpit/,file:///usr/share/icons/
+detailViewIconSize=0

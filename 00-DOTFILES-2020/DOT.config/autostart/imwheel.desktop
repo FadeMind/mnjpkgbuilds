@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment[pl_PL]=
+Comment=
+Exec=imwheel -k -b 45
+GenericName[pl_PL]=
+GenericName=
+Icon=input-mouse
+MimeType=
+Name[pl_PL]=imwheel
+Name=imwheel
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

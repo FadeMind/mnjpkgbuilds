@@ -1,0 +1,5 @@
+[General]
+history=kate ~/.config/user-dirs.conf,qb,msm_kde_notifier,kate /etc/makepkg.conf,octopi-notifier
+
+[PlasmaRunnerManager]
+LaunchCounts=2 shell_kdesu dbus-launch systemsettings5,1 shell_killall yakuake,2 shell_shutter --full,1 shell_kate /etc/default/tlp,1 shell_udiskie,1 shell_kate /etc/systemd/system.conf,1 services_qbittorrent.desktop,1 shell_qtconfig-qt4,1 shell_/opt/messengerfordesktop/messengerfordesktop --os-startup,1 shell_kdesu bleachbit,1 shell_kate /etc/makepkg.conf,1 shell_kate ~/.config/user-dirs.conf,4 shell_kate /etc/default/grub,1 services_bluedeviladapters.desktop,1 shell_octopi-notifier,3 shell_msm_kde_notifier

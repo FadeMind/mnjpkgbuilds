@@ -1,0 +1,16 @@
+[Appearance]
+BackgroundColorOpacity=40
+Skin=maia
+TerminalHighlightOnManualActivation=true
+Translucency=true
+
+[Dialogs]
+ConfirmQuit=false
+
+[Favorite Profiles]
+Favorites=
+
+[Window]
+Height=60
+KeepOpen=false
+Width=90

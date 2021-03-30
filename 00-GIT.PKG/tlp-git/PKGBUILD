@@ -1,0 +1,92 @@
+# Maintainer: Maxime Gauduin <alucryd@archlinux.org>
+# Contributor: Marc Schulte <bomba@nerdstube.de>
+
+pkgbase=tlp-git
+pkgname=('tlp-git' 'tlp-rdw-git')
+pkgver=1.0.r58.5baef33
+pkgrel=1
+arch=('any')
+url='http://linrunner.de/en/tlp/docs/tlp-linux-advanced-power-management.html'
+license=('GPL2' 'GPL3')
+makedepends=('git')
+source=('tlp::git+https://github.com/linrunner/TLP.git')
+sha256sums=('SKIP')
+
+pkgver() {
+  cd tlp
+
+  tag='0.8'
+
+  echo "$(git describe --tags | sed 's/-/.r/; s/-g/./')"
+}
+
+prepare() {
+  cd tlp
+
+  ###
+  # These changes represent feedback gathered over time from Manjaro users and
+  # should prevent "hidden" issues with USB devices and performance issues
+  # with SSDs.
+  #
+  # They also enable some power saving on AC power as there's no real need to
+  # run things constantly at full power just because you're not on battery.
+  #
+  # Anyone looking for further power savings can easily alter these settings
+  # after installation.
+
+  # Be conservative with SATA ALPM to prevent poor SSD performance and
+  # potential data corruption; makes little difference in normal system usage.
+  sed -i '132s/ min_power/ max_performance/' default
+
+  # Use hardware defaults for open-source AMD drivers.
+  # This allows demand-based power scaling and vastly reduces heat generation.
+  sed -i '154s/=high/=default/' default
+
+  # Blacklist devices on pcieport connections from runtime PM
+  # This works around a class of bugs with newer hardware (suspend, tearing)
+  sed -i '/#RUNTIME_PM_DRIVER_BLACKLIST/c RUNTIME_PM_DRIVER_BLACKLIST="amdgpu nouveau nvidia radeon pcieport"' default
+
+  # Disable aggressive USB device autosuspend.
+  # This prevents "hidden" issues with USB hardware that is incompatible.
+  sed -i '204s/enable/enable aggressive/; 205s/=1/=0/' default
+
+  ###
+}
+
+package_tlp-git() {
+  pkgdesc='Linux Advanced Power Management'
+  depends=('hdparm' 'iw' 'pciutils' 'rfkill' 'usbutils' 'util-linux')
+  optdepends=('acpi_call: Sandy Bridge and newer ThinkPad battery functions'
+              'ethtool: Disable Wake On Lan'
+              'lsb-release: Display LSB release version in tlp-stat'
+              'smartmontools: Display S.M.A.R.T. data in tlp-stat'
+              'tp_smapi: ThinkPad battery functions'
+              'x86_energy_perf_policy: Set energy versus performance policy on x86 processors')
+  provides=('tlp')
+  conflicts=('laptop-mode-tools' 'pm-utils' 'tlp')
+  backup=('etc/default/tlp')
+
+  cd tlp
+
+  export TLP_SBIN='/usr/bin'
+  export TLP_ULIB='/usr/lib/udev'
+  export TLP_SYSD='/usr/lib/systemd/system'
+  export TLP_NO_INIT='1'
+  export TLP_NO_PMUTILS='1'
+  export TLP_WITH_SYSTEMD='1'
+
+  make DESTDIR="${pkgdir}" install-tlp install-man
+}
+
+package_tlp-rdw-git() {
+  pkgdesc='Linux Advanced Power Management - Radio Device Wizard'
+  depends=('networkmanager' 'tlp')
+  provides=('tlp-rdw')
+  conflicts=('tlp-rdw')
+
+  cd tlp
+
+  make DESTDIR="${pkgdir}" install-rdw
+}
+
+# vim: ts=2 sw=2 et:

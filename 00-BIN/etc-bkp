@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+cd $HOME
+mkdir etc-20$(date +%y%m%d)-MNJ;\
+sudo cp -rf /etc/* etc-20$(date +%y%m%d)-MNJ/;\
+printf "Compressing etc... \n"
+sudo tar cf - etc-20$(date +%y%m%d)-MNJ/ | xz -T 0 -7 -zf - > etc-20$(date +%y%m%d)-MNJ.tar.xz;\
+sudo chown 1000:100 etc-20$(date +%y%m%d)-MNJ.tar.xz;sudo rm -rf etc-20$(date +%y%m%d)-MNJ

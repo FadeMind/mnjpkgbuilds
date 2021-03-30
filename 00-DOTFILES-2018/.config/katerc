@@ -1,0 +1,45 @@
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[Favorite Profiles]
+Favorites=
+
+[FileDialogSize]
+Height 768=643
+Width 1366=939
+
+[General]
+Config Revision=10
+Days Meta Infos=30
+Last Session=
+Modified Notification=true
+Recent File List Entry Count=10
+Restore Window Configuration=true
+Save Meta Infos=true
+Show Full Path in Title=false
+Show Menu Bar=true
+Show Status Bar=true
+Show Tab Bar=true
+Startup Session=manual
+
+[KFileDialog Settings]
+Recent Files[$e]=file:///etc/sysctl.d/99-sysctl.conf,file:$HOME/.bash_history,file:$HOME/.config/chrome-flags.conf,file:///etc/pacman.conf,file:$HOME/bin/bleachbit-root,file:$HOME/bin/.directory,file:///etc/default/grub,file:$HOME/bin/clean-l10n,file:$HOME/DEV.PKGBUILDS/papirus-maia-icon-theme-git/PKGBUILD
+Recent URLs[$e]=file:///etc/ddclient/,file:$HOME/DEV.PKGBUILDS/papirus-maia-icon-theme-git/,file:$HOME/bin/,file:///etc/default/,file:///etc/,file:///etc/modprobe.d/
+
+[KTextEditor::Search]
+Replace History=.,@,etcher,'./,'./share,share,--exclude=',0.0.0.0 ,0.0.0.0,Online Radio Box,onlineradiobox,,radiobox,Radiobox,| Freeware    |[link](https://www.hosts-file.net), | Freeware    |[link](https://www.hosts-file.net),\t\t\t\t\t\t        | Freeware    |[link](https://www.hosts-file.net)
+Search History=pacman-mirr, DOT , AT ,etcher-bin,'./share,'share, share,--exclude,127.0.0.1 ,127.0.0.1,facebook.com,facebook.net,facebook,kdesu,Netflix,netflix,networkMana,0.0.0.0, ,127.0.0.1\t,apis,googleadapis,27lelchgcvs2wpm7.tankbe.pro,0.0.0.0 #,sales,orange,GCC,ccac,[hpHosts](https://www.hosts-file.net)\t\t\t\t                                                | Freeware,[hpHosts](https://www.hosts-file.net)\t\t\t\t                                            | Freeware,[hpHosts](https://www.hosts-file.net)\t\t\t                                            | Freeware
+
+[MainWindow]
+Height 768=459
+State=AAAA/wAAAAD9AAAAAAAAA4YAAAGuAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=902
+
+[filetree]
+editShade=211,190,222
+listMode=false
+shadingEnabled=true
+showFullPathOnRoots=false
+sortRole=0
+viewShade=219,170,213

@@ -1,0 +1,1 @@
+../laptopkb/laptopkb-disable.sh

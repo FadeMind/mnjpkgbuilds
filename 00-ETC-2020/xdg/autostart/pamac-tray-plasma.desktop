@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Update Notifier Tray Icon
+Icon=update-notifier
+Exec=pamac-tray-plasma
+Terminal=false
+Type=Application
+StartupNotify=true
+OnlyShowIn=KDE;

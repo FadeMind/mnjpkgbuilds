@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Starting PSD services"
+systemctl --user start psd
+psd p

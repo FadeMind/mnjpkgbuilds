@@ -1,0 +1,9 @@
+_kdocker()
+{
+        local cur
+
+        COMPREPLY=()
+        cur=${COMP_WORDS[COMP_CWORD]}
+        COMPREPLY=($(compgen -A command $cur))
+}
+complete -F _kdocker kdocker

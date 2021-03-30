@@ -1,0 +1,49 @@
+{
+    "accounts": [
+        {
+            "color": "#0000ff",
+            "path": "/home/fademind/.thunderbird/d451v4mr.default-release/ImapMail/imap.gmail.com/INBOX.msf"
+        },
+        {
+            "color": "#0000ff",
+            "path": "/home/fademind/.thunderbird/d451v4mr.default-release/ImapMail/outlook.office365.com/INBOX.msf"
+        }
+    ],
+    "advanced/blinkingusealpha": false,
+    "advanced/forcedRereadInterval": 0,
+    "advanced/ignoreUpdateVersion": "",
+    "advanced/notificationfontmaxsize": 512,
+    "advanced/notificationfontminsize": 4,
+    "advanced/onlyShowIconOnUnreadMessages": false,
+    "advanced/runProcessOnChange": "",
+    "advanced/tbcmdline": [
+        "/usr/bin/thunderbird"
+    ],
+    "advanced/tbwindowmatch": " Mozilla Thunderbird",
+    "advanced/unreadopacitylevel": 0.75,
+    "advanced/updateOnStartup": false,
+    "advanced/watchfiletimeout": 150,
+    "common/allowsuppressingunread": false,
+    "common/blinkspeed": 0,
+    "common/bordercolor": "#ffffff",
+    "common/borderwidth": 0,
+    "common/defaultcolor": "#0000ff",
+    "common/exitthunderbirdonquit": false,
+    "common/forceIgnoreUnreadEmailsOnMinimize": false,
+    "common/hidewhenminimized": true,
+    "common/hidewhenrestarted": false,
+    "common/hidewhenstarted": true,
+    "common/ignoreStartUnreadCount": false,
+    "common/launchthunderbird": true,
+    "common/launchthunderbirddelay": 0,
+    "common/monitorthunderbirdwindow": true,
+    "common/newemailEnabled": false,
+    "common/notificationfont": "Segoe UI,56,-1,5,50,0,0,0,0,0",
+    "common/notificationfontweight": 50,
+    "common/notificationicon": "iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAACXBIWXMAABJ0AAASdAHeZh94AAAEO0lEQVR4nO3dsYsVVxTH8d8ZJ4XlQhJsHm/GBGHTCQGtI+ktU9oEO3GRRf8DCSKuNiL5B1LaB32NhVZ2CUiyM4/XLCZkS4uMc1LsO0QxT97Lnrtz79zfp7PwXJnzdebtg2UAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIkqGhD6gbdttVb0M4CKALwBsATgV+txEvQVwCOB3AM9F5HFVVb+GPDBYAG3bnu/7/o6IXAp1Rg5U9UlRFLtVVb0MMT9IAE3TXFPVuyJShpifG1XtRORGXdcPvGcX3gP39/d3Adzn8v0sr+X95bX1ne05rG3bb1T1ZwQIiwAAvYh8W1XVU6+BbouazWalqj70nEkfKFT14Ww2c7u7ui1rOp1+B+Cc1zxa6dzyWrtwC0BEvveaRR/nea1dPgPM5/Otvu//BG//J6UviuLT6XR6eNxBLgtT1Ytes2gtRd/3F1wGeQwBsO00h9YkIl95zPG6A3y+4V/5y+PckdnomqjqZx6HegWw0Y8lIvI1gB0ABx7nJ+4AwM7ymqxNVT/xOHyQ57aqvqnreq8sy7PIN4QDADtlWZ6t63pPVd8M8Y8Y9IPbZDLJMYT3Fj+ZTAZZvInik3smIUS1eBNFAGakIUS5eBNVAGYkIUS9eBNlACbREJJYvIk6AJNICEkt3iQRgIk0hCQXb5IKwEQSQtKLN0kGYAYKYRSLN0MFcGWxWJz2GnZCIQRb/PJaXPGat4mhArjddd1+0zTXEwgh6OKbprnedd0+gNteczcx5CPgDIB7EYdwUou/h6NrMYgYPgPEFkIWizcxBGCGDiGrxZuYAjAnHUKWizcx//aOhXCzaZofyrJ85LWc5Zy9xWLx6J0/u1ksFqe7rrvadd1NRLj0d8UcgAkdgpuUFm9ifASsEuzRcFwp3OpXSSkAE00IKS/epBiAGSyEMSzepByAObEQxrR4M4YATLAQxrh4M6YAjFsIY168GWMA5n+HkMPizZgDMGuHkNPiTQ4BmJUh5Lh4k8I3gd7e+2YRAFL65s5bjgGYMzj63561nB4B9B8YQOYYQOYYQOYYQOYYQOYYQOYYQOYYQOYYQOYYQOYYQOYYQOYYQOYYQOYYQOZcAhCRvz3m0PpEpPOY4xXAHx5zaH0i8tpjjtcjIOj7belDqvqLxxyvO8BzAL3HLFpLXxTFC49BLgEs3171zGMWreWZxxvDAMefAlT1R69Z9HGe19otgPl8/hOAV17zaKVXy2vtgi+PTku8L48GgKqqnqrqLc+Z9C9VveW5fMD5DmCaprmmqneX772nY1LVTkRu1HX9wHt2kAAAoG3b833f3xGRS6HOyIGqPimKYreqqpch5gcLwLRtu62qlwFcAPAlgC0Ap0Kfm6i3AA4B/AbghYg8rqqKX7IRERERERERERERERERERERERERERERERERERER0ZF/ACMOlMwAbfnWAAAAAElFTkSuQmCC",
+    "common/notificationiconunread": "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",
+    "common/restartthunderbird": false,
+    "common/showDialogIfNoAccountsConfigured": true,
+    "common/showhidethunderbird": true,
+    "common/showunreademailcount": true
+}

@@ -1,0 +1,46 @@
+# Maintainer: Karol "Kenji Takahashi" Woźniak <kenji.sx>
+# Contributor: SanskritFritz (gmail)
+
+pkgname=copyq-git
+pkgver=3.2.0.r47.g50362adc
+pkgrel=1
+epoch=1 # default copyq-git package using DATE format instead of VER+COMMIT
+pkgdesc="Clipboard manager with searchable and editable history."
+url="https://github.com/hluk/CopyQ"
+arch=('x86_64')
+license=('GPL3')
+depends=('libxtst' 'qt5-script' 'hicolor-icon-theme' 'desktop-file-utils')
+makedepends=('cmake' 'git' 'qt5-tools' 'qt5-svg')
+provides=('copyq' 'copyq-plugin-itemweb' 'copyq-plugin-itemweb-git')
+conflicts=('copyq' 'copyq-plugin-itemweb' 'copyq-plugin-itemweb-git')
+changelog="CHANGES"
+source=("${pkgname}::git+${url}.git")
+md5sums=('SKIP')
+
+prepare() {
+    cd ${pkgname}
+    if [[ -d build ]]; then
+        rm -Rf build
+    fi
+    mkdir -p build
+    cp -rf CHANGES ${startdir}/
+}
+
+pkgver() {
+    cd ${pkgname}
+    git describe --tags --long | sed -r -e 's,^[^0-9]*,,;s,([^-]*-g),r\1,;s,[-_],.,g'
+}
+
+build() {
+    cd ${pkgname}/build
+    cmake \
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DWITH_QT5=TRUE \
+        ${srcdir}/${pkgname}
+    make
+}
+
+package() {
+    cd ${pkgname}/build
+    make DESTDIR="${pkgdir}" install
+}

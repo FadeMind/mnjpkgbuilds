@@ -1,0 +1,21 @@
+[connection]
+id=Połączenie przewodowe 1
+uuid=675bb461-1da4-3b7e-8f7c-57efee48728b
+type=ethernet
+autoconnect-priority=-100
+permissions=
+
+[ethernet]
+duplex=half
+mac-address-blacklist=
+speed=100
+
+[ipv4]
+dns-search=
+ignore-auto-dns=true
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+method=ignore

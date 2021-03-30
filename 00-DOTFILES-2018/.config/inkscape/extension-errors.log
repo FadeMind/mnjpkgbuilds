@@ -1,0 +1,45 @@
+Rozszerzenie „Win32 Vector Print” nie zostało wczytane, ponieważ the extension is designed for Windows only. Spowodowane jest to niewłaściwym plikiem .inx dla tego efektu. Przyczyną może być niewłaściwa instalacja Inkscape'a.
+Rozszerzenie „LaTeX” nie zostało wczytane, ponieważ nie zostały spełnione zależności.
+Zależności:
+  typ: executable
+  położenie: ścieżka
+  ciąg znaków: latex
+
+Rozszerzenie „LaTeX” nie zostało wczytane, ponieważ nie zostały spełnione zależności.
+Zależności:
+  typ: executable
+  położenie: ścieżka
+  ciąg znaków: dvips
+
+Rozszerzenie „LaTeX” nie zostało wczytane, ponieważ nie zostały spełnione zależności.
+Zależności:
+  typ: executable
+  położenie: ścieżka
+  ciąg znaków: pstoedit
+
+Rozszerzenie „DXF Output” nie zostało wczytane, ponieważ nie zostały spełnione zależności.
+Zależności:
+  typ: executable
+  położenie: ścieżka
+  ciąg znaków: pstoedit
+  opis: Aby wykonać operację musi być zainstalowany program pstoedit. Odwiedź witrynę http://www.pstoedit.net/pstoedit
+
+Rozszerzenie „Dia Input” nie zostało wczytane, ponieważ nie zostały spełnione zależności.
+Zależności:
+  typ: executable
+  położenie: ścieżka
+  ciąg znaków: dia
+  opis: Aby dokonać importu plików Dia, konieczne jest zainstalowanie programu Dia. Można pobrać go pod adresem http://live.gnome.org/Dia.
+
+Rozszerzenie „XFIG Input” nie zostało wczytane, ponieważ nie zostały spełnione zależności.
+Zależności:
+  typ: executable
+  położenie: ścieżka
+  ciąg znaków: fig2dev
+
+Rozszerzenie „Sketch Input” nie zostało wczytane, ponieważ nie zostały spełnione zależności.
+Zależności:
+  typ: executable
+  położenie: ścieżka
+  ciąg znaków: skconvert
+

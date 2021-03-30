@@ -1,0 +1,9 @@
+[Defaults]
+Profile=Domyślne
+
+[PROFILE_Domyślne]
+EmailAddress=
+EmailClient[$e]=/usr/lib/thunderbird/thunderbird %u
+FullName=fademind
+ServerType=
+TerminalClient=false

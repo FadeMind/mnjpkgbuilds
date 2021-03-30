@@ -1,0 +1,6 @@
+[MIME Cache]
+application/x-cmakecache=cmake-gui.desktop;
+application/x-designer=designer-qt4.desktop;designer.desktop;
+application/x-linguist=linguist-qt4.desktop;linguist.desktop;
+text/vnd.trolltech.linguist=linguist-qt4.desktop;linguist.desktop;
+x-scheme-handler/spotify=spotify-adblock.desktop;spotify-kdocker.desktop;spotify.desktop;

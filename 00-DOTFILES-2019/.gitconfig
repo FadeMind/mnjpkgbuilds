@@ -1,0 +1,15 @@
+[user]
+	email = fademind@gmail.com
+	name = fademind
+[commit]
+	gpgsign = false
+[gpg]
+	program = gpg
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  ui = true
+  pager = true
+ 

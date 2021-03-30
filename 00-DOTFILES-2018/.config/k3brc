@@ -1,0 +1,88 @@
+[Devices]
+HL-DT-ST DVDRAM GTC0N=4234,4234
+
+[External Programs]
+cdrdao default=/usr/bin/cdrdao
+cdrdao last seen newest version=1.2.3
+cdrdao user parameters=
+cdrecord default=/usr/bin/cdrecord
+cdrecord last seen newest version=3.2a09
+cdrecord user parameters=
+cdrskin default=/usr/bin/cdrskin
+cdrskin last seen newest version=1.4.8
+cdrskin user parameters=
+dvd+rw-format default=/usr/bin/dvd+rw-format
+dvd+rw-format last seen newest version=7.1
+dvd+rw-format user parameters=
+eMovix default=/usr/bin/
+eMovix last seen newest version=0.9.0
+eMovix user parameters=
+growisofs default=/usr/bin/growisofs
+growisofs last seen newest version=7.1
+growisofs user parameters=
+mkisofs default=/usr/bin/mkisofs
+mkisofs last seen newest version=3.2a09
+mkisofs user parameters=
+normalize user parameters=
+readcd default=/usr/bin/readcd
+readcd last seen newest version=3.2a09
+readcd user parameters=
+search path[$e]=/usr/bin/,/usr/local/bin/,/usr/sbin/,/usr/local/sbin/,/sbin
+sox user parameters=
+transcode default=/usr/bin/transcode
+transcode last seen newest version=1.1.7
+transcode user parameters=
+vcdxbuild default=/usr/bin/vcdxbuild
+vcdxbuild last seen newest version=2.0.1
+vcdxbuild user parameters=
+vcdxminfo default=/usr/bin/vcdxminfo
+vcdxminfo last seen newest version=2.0.1
+vcdxminfo user parameters=
+vcdxrip default=/usr/bin/vcdxrip
+vcdxrip last seen newest version=2.0.1
+vcdxrip user parameters=
+
+[General Options]
+Allow overburning=false
+Fifo buffer=4
+Force unsafe operations=false
+Last system check version=17.12.2
+Manual buffer size=false
+Navigator breadcrumb mode=true
+No cd eject=false
+Show Document Header=true
+Show advanced GUI=false
+Show progress OSD=false
+Show splash=true
+Temp Dir=/tmp
+action dialog startup settings=2
+ask_for_saving_changes_on_exit=true
+auto rewritable erasing=false
+burnfree=true
+check system config=true
+config version=17.12.2
+current theme=quant
+hide main window while writing=false
+keep action dialogs open=false
+
+[Welcome Widget]
+welcome_actions=file_new_data,file_new_audio,tools_copy_medium
+
+[file view]
+Decoration position=0
+Previews=false
+Show Preview=false
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort reversed=false
+View Style=Simple
+last url[$e]=$HOME/
+listViewIconSize=0
+show bookmarks=false
+
+[main_window_settings]
+Height 768=554
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAHFAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=640

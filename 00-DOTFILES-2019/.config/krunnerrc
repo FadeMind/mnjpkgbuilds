@@ -1,0 +1,5 @@
+[General]
+history=bleachbit-root,kdesu dbus-launch systemsettings5,sudo dbus-launch systemsettings5,pamac-tray-appindicator,msm_kde_notifier,octopi-no,manjaro-setting,env GDK_BACKEND=x11 uget-gtk
+
+[PlasmaRunnerManager]
+LaunchCounts=1 shell_sudo dbus-launch systemsettings5,4 shell_kdesu dbus-launch systemsettings5,1 services_manjaro-settings-manager.desktop,1 services_octopi-notifier.desktop,1 baloosearch_/home/fademind/GitHub/mnjpkgbuilds/TREE,2 shell_msm_kde_notifier,1 shell_pamac-tray-appindicator

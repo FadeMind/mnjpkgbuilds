@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="application/x-alpm-package">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>Alpm Package</comment>
+  <glob-deleteall/>
+  <glob pattern="*.pkg.tar"/>
+  <glob pattern="*.pkg.tar.gz"/>
+  <glob pattern="*.pkg.tar.xz"/>
+</mime-type>

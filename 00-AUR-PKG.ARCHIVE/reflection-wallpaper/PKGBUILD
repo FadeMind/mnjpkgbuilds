@@ -1,0 +1,17 @@
+# Maintainer: FadeMind <fademind@gmail.com>
+
+pkgname=reflection-wallpaper
+pkgver=20170120
+pkgrel=1
+pkgdesc="Reflection wallpaper"
+url="https://github.com/FadeMind/${pkgname}"
+arch=('any')
+license=('GPL')
+makedepends=('make')
+options=('!strip')
+source=(Makefile)
+sha256sums=('1db7a428d45c8f7a918d8d57ea8c7d0791809d55033857b127c43a7f3d6bf72b')
+
+package() {
+    make -C "${startdir}" install DESTDIR="$pkgdir"
+}

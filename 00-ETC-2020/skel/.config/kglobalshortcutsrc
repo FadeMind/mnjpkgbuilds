@@ -1,0 +1,12 @@
+[kwin]
+Window Quick Tile Bottom=Meta+Down,Meta+Down,Quick Tile Window to the Bottom
+Window Quick Tile Bottom Left=Meta+Shift+Left,none,Quick Tile Window to the Bottom Left
+Window Quick Tile Bottom Right=Meta+Shift+Down,none,Quick Tile Window to the Bottom Right
+Window Quick Tile Left=Meta+Left,Meta+Left,Quick Tile Window to the Left
+Window Quick Tile Right=Meta+Right,Meta+Right,Quick Tile Window to the Right
+Window Quick Tile Top=Meta+Up,Meta+Up,Quick Tile Window to the Top
+Window Quick Tile Top Left=Meta+Shift+Up,none,Quick Tile Window to the Top Left
+Window Quick Tile Top Right=Meta+Shift+Right,none,Quick Tile Window to the Top Right
+Window Maximize=Meta+W,Meta+PgUp,Maximise Window
+Switch Window Up=,Meta+Alt+Up,Switch to Window Above
+Window Minimize=Meta+Alt+Down,Meta+PgDown,Minimise WindowBelow

@@ -1,0 +1,51 @@
+##
+## Manjaro Linux custom mirrorlist
+## Generated on 2019-08-17 11:43
+##
+## Please use 'pacman-mirrors -id' To reset custom mirrorlist
+## Please use 'pacman-mirrors -c all' To reset custom mirrorlist
+## To remove custom config run  'pacman-mirrors -c all'
+##
+
+## Country : Germany
+Server = https://mirror.netzspielplatz.de/manjaro/packages/testing/$repo/$arch
+
+## Country : Germany
+Server = https://ftp.halifax.rwth-aachen.de/manjaro/testing/$repo/$arch
+
+## Country : Germany
+Server = https://mirror.netcologne.de/manjaro/testing/$repo/$arch
+
+## Country : Denmark
+Server = https://www.uex.dk/public/manjaro/testing/$repo/$arch
+
+## Country : France
+Server = https://mirror.oldsql.cc/manjaro/testing/$repo/$arch
+
+## Country : Germany
+Server = https://mirror.alpix.eu/manjaro/testing/$repo/$arch
+
+## Country : Germany
+Server = https://mirror.23media.com/manjaro/testing/$repo/$arch
+
+## Country : Germany
+Server = https://mirror.philpot.de/manjaro/testing/$repo/$arch
+
+## Country : France
+Server = https://manjaro.ynh.ovh/testing/$repo/$arch
+
+## Country : Germany
+Server = https://manjaro.moson.eu/testing/$repo/$arch
+
+## Country : Bulgaria
+Server = https://manjaro.ipacct.com/manjaro/testing/$repo/$arch
+
+## Country : Denmark
+Server = https://mirrors.dotsrc.org/manjaro/testing/$repo/$arch
+
+## Country : Bulgaria
+Server = https://mirrors.netix.net/manjaro/testing/$repo/$arch
+
+## Country : Czech
+Server = https://mirror.dkm.cz/manjaro/testing/$repo/$arch
+

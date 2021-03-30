@@ -1,0 +1,18 @@
+[DownloadDialog Settings]
+Height 768=509
+Width 1366=700
+
+[KFileDialog Settings]
+Recent Files[$e]=
+
+[MainWindow]
+CommandList=
+Height 768=600
+HostList=
+SelectedSheets[$e]=ProcessTable.sgrd,SystemLoad2.sgrd,Temperature (lm_sensors)-1.0.sgrd,Hard Disk Totals-0.1.sgrd
+SplitterSizeList=658,448
+State=AAAA/wAAAAD9AAAAAAAABFMAAAIlAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=1107
+currentSheet=0
+isMinimized=false

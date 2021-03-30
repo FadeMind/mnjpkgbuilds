@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xbel>
+<xbel xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks">
+ <bookmark href="file:///home/fademind/Pulpit">
+  <title>Desktop</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="desktop"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1565356621/1</ID>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
+    <OnlyInApp/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/fademind">
+  <title>Home</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-home"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1565356621/0</ID>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
+    <OnlyInApp/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/fademind/Dokumenty">
+  <title>Documents</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-documents"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1565356621/2</ID>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
+    <OnlyInApp/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/fademind/GitHub">
+  <title>GitHub</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-github"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1565589870/2</ID>
+    <isSystemItem>false</isSystemItem>
+    <IsHidden>false</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/fademind/Obrazy">
+  <title>Obrazy</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-pictures"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1565589876/3</ID>
+    <isSystemItem>false</isSystemItem>
+    <IsHidden>false</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/fademind/Pobrane">
+  <title>Downloads</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-download"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1565356621/3</ID>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
+    <OnlyInApp/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///var/cache/pacman/pkg/">
+  <title>pkg@tmp</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-white-templates"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1565868221/1</ID>
+    <isSystemItem>false</isSystemItem>
+    <IsHidden>false</IsHidden>
+    <OnlyInApp/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///dev/shm/makepkg/">
+  <title>makepkg@shm</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-white-templates-open"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1565868092/0</ID>
+    <isSystemItem>false</isSystemItem>
+    <IsHidden>false</IsHidden>
+    <OnlyInApp/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="remote:/">
+  <title>Network</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-network"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1565356621/4</ID>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
+    <OnlyInApp/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="trash:/">
+  <title>Trash</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="user-trash"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1565356621/5</ID>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
+ <info>
+  <metadata owner="http://www.kde.org">
+   <GroupState-Places-IsHidden>false</GroupState-Places-IsHidden>
+   <GroupState-Remote-IsHidden>false</GroupState-Remote-IsHidden>
+   <GroupState-Devices-IsHidden>false</GroupState-Devices-IsHidden>
+   <GroupState-RemovableDevices-IsHidden>false</GroupState-RemovableDevices-IsHidden>
+   <GroupState-Tags-IsHidden>false</GroupState-Tags-IsHidden>
+   <withBaloo>true</withBaloo>
+   <GroupState-SearchFor-IsHidden>false</GroupState-SearchFor-IsHidden>
+   <GroupState-RecentlySaved-IsHidden>false</GroupState-RecentlySaved-IsHidden>
+  </metadata>
+ </info>
+ <bookmark href="timeline:/today">
+  <title>Today</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="go-jump-today"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1565356621/6</ID>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="timeline:/yesterday">
+  <title>Yesterday</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="view-calendar-day"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1565356621/7</ID>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="search:/documents">
+  <title>Documents</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-documents"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1565356621/8</ID>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
+    <OnlyInApp/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="search:/images">
+  <title>Images</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-pictures"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1565356621/9</ID>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
+    <OnlyInApp/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="search:/audio">
+  <title>Audio Files</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-sound"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1565356621/10</ID>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
+    <OnlyInApp/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="search:/videos">
+  <title>Videos</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-video"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1565356621/11</ID>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
+    <OnlyInApp/>
+   </metadata>
+  </info>
+ </bookmark>
+ <separator href="file:///">
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/sdb2</UDI>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
+   </metadata>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="drive-harddisk-root"/>
+   </metadata>
+  </info>
+  <title>manjaro</title>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/sda1</UDI>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
+   </metadata>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="drive-harddisk"/>
+   </metadata>
+  </info>
+  <title>STORAGE_NTFS</title>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/sda2</UDI>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>false</IsHidden>
+   </metadata>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="drive-harddisk"/>
+   </metadata>
+  </info>
+  <title>STORAGE_EXT4</title>
+ </separator>
+ <bookmark href="gdrive:/fademind/">
+  <title>GDRIVE</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-gdrive"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1565589268/0</ID>
+    <OnlyInApp/>
+    <isSystemItem>false</isSystemItem>
+    <IsHidden>false</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="bluetooth:/">
+  <title>Bluetooth</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="network-bluetooth"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1565589740/1</ID>
+    <OnlyInApp/>
+    <isSystemItem>false</isSystemItem>
+    <IsHidden>false</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
+ <separator href="file:///run/user/1000/fademind-google-chrome">
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/kde/fstab/overlay/run/user/1000/fademind-google-chrome</UDI>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>true</IsHidden>
+   </metadata>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder"/>
+   </metadata>
+  </info>
+  <title>/run/user/1000/fademind-google-chrome (overlay)</title>
+ </separator>
+</xbel>

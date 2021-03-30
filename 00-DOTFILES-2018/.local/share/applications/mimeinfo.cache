@@ -1,0 +1,4 @@
+[MIME Cache]
+application/x-designer=designer-qt4.desktop;designer.desktop;
+application/x-linguist=linguist.desktop;linguist-qt4.desktop;
+text/vnd.trolltech.linguist=linguist.desktop;linguist-qt4.desktop;

@@ -1,0 +1,10 @@
+[Unit]
+Description=Clean up modules from old kernels
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/linux-module-cleanup
+
+[Install]
+WantedBy=basic.target
+

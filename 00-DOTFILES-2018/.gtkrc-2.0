@@ -1,0 +1,18 @@
+# File created by KDE Gtk Config
+# Configs for GTK2 programs 
+
+include "/usr/share/themes/Breath/gtk-2.0/gtkrc"
+style "user-font" 
+{
+	font_name="Segoe UI Normalny"
+}
+widget_class "*" style "user-font"
+gtk-font-name="Segoe UI Normalny 9"
+gtk-theme-name="Breath"
+gtk-icon-theme-name="Papirus-Light-Maia"
+gtk-fallback-icon-theme="Papirus-Light-Maia"
+gtk-cursor-theme-name="maia_cursors"
+gtk-toolbar-style=GTK_TOOLBAR_BOTH_HORIZ
+gtk-menu-images=1
+gtk-button-images=1
+gtk-primary-button-warps-slider=0

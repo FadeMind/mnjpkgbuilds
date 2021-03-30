@@ -1,0 +1,10 @@
+[General]
+last-saved-to[$e]=$HOME/Obrazy
+
+[GuiConfig]
+captureModeIndex=4
+cropRegion=216,253,1116,25
+includeDecorations=true
+includePointer=false
+lastUsedSaveMode=0
+window-position=50,50

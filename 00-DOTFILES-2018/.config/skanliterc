@@ -1,0 +1,34 @@
+[Image Saving]
+NumberStartsFrom=1
+
+[Options For Hewlett-Packard:Deskjet_Ink_Advant_K209a-z]
+KSane::InvertColors=false
+batch-scan=false
+br-x=215.899994
+br-y=296.925995
+brightness=0
+compression=JPEG
+contrast=0
+jpeg-quality=10
+length-measurement=Wydłużony
+mode=Color
+resolution=600 DPI
+source=Skaner stacjonarny
+tl-x=0.000000
+tl-y=0.000000
+
+[Options For Hewlett-Packard:deskjet_5000_series]
+KSane::InvertColors=false
+br-x=215.900009
+br-y=297.010681
+brightness=1000
+compression=JPEG
+contrast=1000
+mode=Color
+resolution=600 DPI
+source=Skaner stacjonarny
+tl-x=0.000000
+tl-y=0.000000
+
+[Window]
+Geometry=740,400

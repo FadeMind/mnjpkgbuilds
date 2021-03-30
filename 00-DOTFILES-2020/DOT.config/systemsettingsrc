@@ -1,0 +1,36 @@
+[ConfigDialog]
+eDP-1 Height 1080=248
+eDP-1 Width 1920=338
+
+[DownloadDialog Settings]
+eDP-1 Height 1080=528
+eDP-1 Width 1920=700
+
+[KFileDialog Settings]
+Recent Files[$e]=wallpaperflare.com_wallpaper.jpg,file:///bin/imwheel,file:$HOME/.wallpapers/wallpaperflare.com_wallpaper.jpg
+Recent URLs[$e]=file:$HOME/.wallpapers/,file:$HOME/,file:///bin/
+detailViewIconSize=0
+
+[KPropertiesDialog]
+eDP-1 Height 1080=560
+eDP-1 Width 1920=511
+
+[Main]
+ActiveView=icon_mode
+
+[MainWindow]
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAOwAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP-1 Height 1080=997
+eDP-1 Height 864=700
+eDP-1 Width 1536=1024
+eDP-1 Width 1920=1920
+eDP-1 Window-Maximized 1080x1920=true
+eDP-1 Window-Maximized 864x1536=true
+eDP-1 XPosition=0
+eDP-1 YPosition=38
+
+[Open-with settings]
+CompletionMode=1
+History=imwheel -k -b 45,ya,/bin/imwheel,qb,bird,cop

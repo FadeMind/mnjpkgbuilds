@@ -1,0 +1,63 @@
+#!/usr/bin/env bash
+
+# Copyright (C) 2015 FadeMind <fademind@gmail.com>
+# Homepage: https://github.com/FadeMind/archbash
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3 of the License, or
+# (at your option) any later version.
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software Foundation,
+# Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
+# 
+# https://www.gnu.org/licenses/gpl.txt
+
+if [ "$(id -u)" = "0" ]; then
+   echo "This script must be run as normal user" 1>&2
+   exit 1
+fi
+
+BD=$(tput bold)
+NM=$(tput sgr0)
+ls=$(ls -h --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F)
+FINDBKP=$(sudo updatedb && locate -e --regex "\.pac(new|orig|save)$")
+
+pacbklist(){
+for i in $FINDBKP
+do
+  ls $i
+done
+}
+
+pacbkpdel(){
+for i in $FINDBKP
+do
+  sudo rm -f $i
+done
+}
+
+main(){
+if [[ -z "$FINDBKP" ]]; then
+    printf "${BD}ERROR: Pacman backup files not found!${NM}\n"
+    exit 0
+else
+    printf "${BD}SUCCESS: Found pacman backup files:${NM}\n"
+    pacbklist
+    printf "${BD}Type ${NM}Y${BD} to continue and ${NM}DELETE${BD} them all.${NM}\n"
+    printf "${BD}Type any other key to exit.${NM}\n"
+    printf "${BD}Answer:${NM}"
+    read SEL
+    case "$SEL" in
+        "Y") pacbkpdel;;
+        *) exit 0;;
+    esac
+fi
+}   
+
+main
+
+

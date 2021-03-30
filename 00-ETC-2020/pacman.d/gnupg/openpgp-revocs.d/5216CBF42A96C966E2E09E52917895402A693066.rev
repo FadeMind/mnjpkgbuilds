@@ -1,0 +1,28 @@
+This is a revocation certificate for the OpenPGP key:
+
+pub  rsa2048/2A693066 2015-10-24
+      Key fingerprint = 5216 CBF4 2A96 C966 E2E0  9E52 9178 9540 2A69 3066
+uid                  Pacman Keyring Master Key <pacman@localhost>
+
+Use it to revoke this key in case of a compromise or loss of
+the secret key.  However, if the secret key is still accessible,
+it is better to generate a new revocation certificate and give
+a reason for the revocation.
+
+To avoid an accidental use of this file, a colon has been inserted
+before the 5 dashes below.  Remove this colon with a text editor
+before making use of this revocation certificate.
+
+:-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2
+Comment: This is a revocation certificate
+
+iQEfBCABCAAJBQJWK7q6Ah0AAAoJEJF4lUAqaTBm7YUH/jp93xWTmJm63YkvSzqx
++bZknqW0ScXJtdHCznqWdHbOuvH8wTzVbhKqd74Oq9Dij/LtMe8DCX6s9pNEJU1M
+fjIsEKVrIklvCffvgysVeC7ZgBpk6rtwmew5a0JLi57eBsLwlc4a/rq/A2inzAcH
+suGc09DOwRgTWUcdqIhM4tgfXEgtQTwAf0sh2AeF9/Tjua7mS2eFDyPv5iD+/WpW
+6nQp0Gsa55kv2jQg12vRjdpoE2qZ4DsdzUYi6fUZEu7IRFlMOEQ1fRl9JnAkMInH
+L5ARjyYmHRR4KR+ukxEQCxB0d4KA8z3zmN6hy0xs00Rv0joZmxYPRDExwN4i6bmG
+FPg=
+=hhOV
+-----END PGP PUBLIC KEY BLOCK-----

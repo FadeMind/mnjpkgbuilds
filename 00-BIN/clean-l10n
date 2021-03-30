@@ -1,0 +1,57 @@
+#!/usr/bin/env bash
+
+# Copyright (C) 2018 FadeMind <fademind@gmail.com>
+# Homepage: https://github.com/FadeMind/archbash
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3 of the License, or
+# (at your option) any later version.
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software Foundation,
+# Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
+# 
+# https://www.gnu.org/licenses/gpl.txt
+
+if [ "$(id -u)" = "0" ]; then
+   echo "This script must be run as normal user" 1>&2
+   exit 1
+fi
+
+BD=$(tput bold)
+NM=$(tput sgr0)
+
+savelist="all_languages|currency|converseen_pl_PL.qm|en|en_US|l10n|kde4|pl|kf5_all_languages|locale.alias|rarian.document|C|man[0-8,n]|pl.UTF-8|en_en.qm|en_en.ts|pl_pl.qm|pl_pl.ts|default.txt|pl.txt|en.ttt|copyq_pl.qm|pl.pak|en-US.pak"
+sha="/usr/share"
+lib="/usr/lib"
+opt="/opt"
+places="$sha/locale $sha/locale/kde4 $sha/man $sha/help $sha/copyq/translations $opt/master-pdf-editor-4/lang $sha/qt/translations/qtwebengine_locales $sha/kbd/locale $sha/converseen/loc" 
+
+cleanup(){
+for d in $places
+    do 
+    cd $d && ls | grep -Exv $savelist | sudo xargs rm -rf
+done
+
+printf "${BD}:::: CLEANUP L10N:${NM}\n"
+
+if [ -f "/usr/bin/locale-gen" ] ; then 
+    printf "${BD}==>> UPDATING LOCALE${NM}\n"
+    sudo locale-gen &> /dev/null
+fi
+
+if [ -f "/usr/bin/mandb" ] ; then 
+    printf "${BD}==>> UPDATING MANDB${NM}\n"
+    sudo mandb &> /dev/null
+fi
+
+if [ -f "/usr/bin/updatedb" ] ; then 
+    printf "${BD}==>> UPDATING MLOCATE${NM}\n"
+    sudo updatedb &> /dev/null
+fi
+}
+
+cleanup

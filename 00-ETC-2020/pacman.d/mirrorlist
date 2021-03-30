@@ -1,0 +1,27 @@
+##
+## Manjaro Linux custom mirrorlist
+## Generated on 2020-10-17 13:28
+##
+## Please use 'pacman-mirrors -id' To reset custom mirrorlist
+## Please use 'pacman-mirrors -c all' To reset custom mirrorlist
+## To remove custom config run  'pacman-mirrors -c all'
+##
+
+## Country : Germany
+Server = https://mirror.atysleaks.org/manjaro/unstable/$repo/$arch
+
+## Country : Germany
+Server = https://manjaro.moson.org/unstable/$repo/$arch
+
+## Country : Germany
+Server = https://mirror.alpix.eu/manjaro/unstable/$repo/$arch
+
+## Country : France
+Server = https://manjaro.mcofficer.me/unstable/$repo/$arch
+
+## Country : Germany
+Server = https://manjaro.moson.eu/unstable/$repo/$arch
+
+## Country : Denmark
+Server = https://www.uex.dk/public/manjaro/unstable/$repo/$arch
+

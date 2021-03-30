@@ -1,0 +1,21 @@
+[Desktop Entry]
+Categories=Network;FileTransfer;
+Comment[pl_PL]=Download multiple URLs and apply it to one of setting/queue.
+Comment=Download multiple URLs and apply it to one of setting/queue.
+Exec=env GDK_BACKEND=x11 uget-gtk %u
+GenericName[pl_PL]=Download Manager
+GenericName=Download Manager
+Icon=uget-icon
+Keywords=filetransfer;download files;download manager;
+MimeType=
+Name[pl_PL]=uGet
+Name=uGet
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

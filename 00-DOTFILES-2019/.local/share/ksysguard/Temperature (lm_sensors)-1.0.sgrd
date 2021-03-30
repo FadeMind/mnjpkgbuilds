@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE KSysGuardWorkSheet>
+<WorkSheet title="Temperature (lm_sensors)" columns="1" locked="0" interval="2" rows="2">
+ <host shell="" port="-1" command="ksysguardd" name="localhost"/>
+ <display rowSpan="1" showUnit="0" row="1" svgBackground="" min="0" manualRange="1" vLines="0" vScroll="0" hLines="1" fontSize="8" title="Cores" version="1" stacked="0" class="FancyPlotter" hScale="6" labels="1" autoRange="1" vDistance="30" column="0" unit="" columnSpan="1" max="120">
+  <beam regexpSensorName="lmsensors/coretemp-isa-\d+/Core_\d+" color="0xff0057ae,0xffe20800,0xfff3c300,0xffff0000" hostName="localhost" sensorType="float"/>
+ </display>
+ <display rowSpan="1" showUnit="0" row="0" svgBackground="" manualRange="0" vLines="0" vScroll="0" hLines="1" fontSize="8" title="PCH" version="1" stacked="0" class="FancyPlotter" hScale="6" labels="1" autoRange="1" vDistance="30" column="0" unit="" columnSpan="1">
+  <beam sensorName="acpi/Thermal_Zone/6-pch_skylake/Temperature" color="0xff0057ae" hostName="localhost" sensorType="integer"/>
+ </display>
+</WorkSheet>

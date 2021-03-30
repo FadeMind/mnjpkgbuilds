@@ -1,0 +1,5 @@
+[General]
+history=imwheel -k -b 45,imwheel --kill --buttons "4 5",/usr/bin/octopi-notifier
+
+[PlasmaRunnerManager]
+LaunchCounts=1 shell_imwheel -k -b 45,1 shell_imwheel --kill --buttons "4 5",1 shell_/usr/bin/octopi-notifier

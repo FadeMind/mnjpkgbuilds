@@ -1,0 +1,9 @@
+[$Version]
+update_info=spectacle_newConfig.upd:spectacle-new-config
+
+[GuiConfig]
+window-position=42,0
+
+[Save]
+lastSaveLocation=file:///home/fademind/Obrazy/Screenshot_20201017_205242.png
+lastUsedSaveMode=Save
