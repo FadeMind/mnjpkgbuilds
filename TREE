@@ -71,6 +71,46 @@
 │   │   └── teamviewer.install
 │   └── ttf-ms-win10
 │       └── PKGBUILD
+├── 00-AUR.PKG.2021
+│   ├── 7zip-bin
+│   │   └── PKGBUILD
+│   ├── authy
+│   │   └── PKGBUILD
+│   ├── cryptomator-bin
+│   │   ├── cryptomator-vault.xml
+│   │   ├── org.cryptomator.Cryptomator.desktop
+│   │   ├── org.cryptomator.Cryptomator.png
+│   │   ├── org.cryptomator.Cryptomator.svg
+│   │   └── PKGBUILD
+│   ├── dolphin-megasync-bin
+│   │   └── PKGBUILD
+│   ├── hardcode-tray-git
+│   │   └── PKGBUILD
+│   ├── hstr-git
+│   │   └── PKGBUILD
+│   ├── kdocker-git
+│   │   └── PKGBUILD
+│   ├── kwalletcli
+│   │   └── PKGBUILD
+│   ├── libreoffice-fresh-rpm
+│   │   └── PKGBUILD
+│   ├── megasync-bin
+│   │   └── PKGBUILD
+│   ├── mksh
+│   │   ├── mksh.install
+│   │   └── PKGBUILD
+│   ├── nano-syntax-highlighting-git
+│   │   ├── nano-syntax-highlighting.install
+│   │   └── PKGBUILD
+│   ├── rar
+│   │   ├── PKGBUILD
+│   │   └── rar.1
+│   ├── spotify
+│   │   ├── LICENSE
+│   │   ├── PKGBUILD
+│   │   └── spotify.protocol
+│   └── ttf-ms-win10
+│       └── PKGBUILD
 ├── 00-AUR-PKG.ARCHIVE
 │   ├── abstract-gray-wallpaper
 │   │   ├── Abstract Gray
@@ -1317,9 +1357,8 @@
 │   │   ├── plasmarc
 │   │   ├── plasmashellrc
 │   │   ├── plasma-workspace
-│   │   │   ├── env
-│   │   │   │   └── envars.sh
-│   │   │   └── shutdown
+│   │   │   └── env
+│   │   │       └── envars.sh
 │   │   ├── powerdevilrc
 │   │   ├── powermanagementprofilesrc
 │   │   ├── print-manager
@@ -3912,8 +3951,6 @@
 │   │   │   ├── xad
 │   │   │   ├── xdg-desktop
 │   │   │   └── xdg-open
-│   │   ├── apache2.d
-│   │   ├── disable
 │   │   ├── local
 │   │   │   ├── lsb_release
 │   │   │   ├── nvidia_modprobe
@@ -3965,442 +4002,437 @@
 │   │   ├── avahi-autoipd.action
 │   │   ├── avahi-daemon.conf
 │   │   ├── avahi-dnsconfd.action
-│   │   ├── hosts
-│   │   └── services
+│   │   └── hosts
 │   ├── bash.bash_logout
 │   ├── bash.bashrc
 │   ├── bash_completion.d
 │   │   ├── hwloc-completion.bash
 │   │   └── kdocker
 │   ├── bindresvport.blacklist
-│   ├── binfmt.d
 │   ├── bluetooth
 │   │   └── main.conf
 │   ├── ca-certificates
-│   │   ├── extracted
-│   │   │   ├── ca-bundle.trust.crt
-│   │   │   ├── cadir
-│   │   │   │   ├── 00673b5b.0 -> thawte_Primary_Root_CA.pem
-│   │   │   │   ├── 01419da9.0 -> Microsoft_ECC_Root_Certificate_Authority_2017.pem
-│   │   │   │   ├── 02265526.0 -> Entrust_Root_Certification_Authority_-_G2.pem
-│   │   │   │   ├── 03179a64.0 -> Staat_der_Nederlanden_EV_Root_CA.pem
-│   │   │   │   ├── 04f60c28.0 -> USERTrust_ECC_Certification_Authority.pem
-│   │   │   │   ├── 062cdee6.0 -> GlobalSign_Root_CA_-_R3.pem
-│   │   │   │   ├── 064e0aa9.0 -> QuoVadis_Root_CA_2_G3.pem
-│   │   │   │   ├── 06dc52d5.0 -> SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
-│   │   │   │   ├── 080911ac.0 -> QuoVadis_Root_CA.pem
-│   │   │   │   ├── 09789157.0 -> Starfield_Services_Root_Certificate_Authority_-_G2.pem
-│   │   │   │   ├── 0a775a30.0 -> GTS_Root_R3.pem
-│   │   │   │   ├── 0b1b94ef.0 -> CFCA_EV_ROOT.pem
-│   │   │   │   ├── 0bf05006.0 -> SSL.com_Root_Certification_Authority_ECC.pem
-│   │   │   │   ├── 0c4c9b6c.0 -> Global_Chambersign_Root_-_2008.pem
-│   │   │   │   ├── 0d69c7e1.0 -> GlobalSign_ECC_Root_CA_-_R4.pem
-│   │   │   │   ├── 0f5dc4f3.0 -> UCA_Extended_Validation_Root.pem
-│   │   │   │   ├── 0f6fa695.0 -> GDCA_TrustAUTH_R5_ROOT.pem
-│   │   │   │   ├── 1001acf7.0 -> GTS_Root_R1.pem
-│   │   │   │   ├── 10531352.0 -> Starfield_Services_Root_Certificate_Authority_-_G2.pem
-│   │   │   │   ├── 106f3e4d.0 -> Entrust_Root_Certification_Authority_-_EC1.pem
-│   │   │   │   ├── 111e6273.0 -> GlobalSign_Root_CA_-_R2.pem
-│   │   │   │   ├── 116bf586.0 -> GeoTrust_Primary_Certification_Authority_-_G2.pem
-│   │   │   │   ├── 12d55845.0 -> DST_Root_CA_X3.pem
-│   │   │   │   ├── 14bc7599.0 -> emSign_ECC_Root_CA_-_G3.pem
-│   │   │   │   ├── 1636090b.0 -> Hellenic_Academic_and_Research_Institutions_RootCA_2011.pem
-│   │   │   │   ├── 18856ac4.0 -> SecureSign_RootCA11.pem
-│   │   │   │   ├── 1ae85e5e.0 -> Trustwave_Global_ECC_P256_Certification_Authority.pem
-│   │   │   │   ├── 1d3472b9.0 -> GlobalSign_ECC_Root_CA_-_R5.pem
-│   │   │   │   ├── 1df5a75f.0 -> D-TRUST_Root_Class_3_CA_2_2009.pem
-│   │   │   │   ├── 1e08bfd1.0 -> IdenTrust_Public_Sector_Root_CA_1.pem
-│   │   │   │   ├── 1e09d511.0 -> T-TeleSec_GlobalRoot_Class_2.pem
-│   │   │   │   ├── 1e1eab7c.0 -> T-TeleSec_GlobalRoot_Class_3.pem
-│   │   │   │   ├── 1e8e7201.0 -> GlobalSign_Root_CA_-_R3.pem
-│   │   │   │   ├── 1eb37bdf.0 -> Chambers_of_Commerce_Root_-_2008.pem
-│   │   │   │   ├── 1f58a078.0 -> QuoVadis_Root_CA_2_G3.pem
-│   │   │   │   ├── 219d9499.0 -> Go_Daddy_Class_2_CA.pem
-│   │   │   │   ├── 23f4c490.0 -> Starfield_Class_2_CA.pem
-│   │   │   │   ├── 244b5494.0 -> DigiCert_High_Assurance_EV_Root_CA.pem
-│   │   │   │   ├── 27af790d.0 -> GeoTrust_Primary_Certification_Authority_-_G2.pem
-│   │   │   │   ├── 2923b3f9.0 -> emSign_Root_CA_-_G1.pem
-│   │   │   │   ├── 2add47b6.0 -> GlobalSign_ECC_Root_CA_-_R5.pem
-│   │   │   │   ├── 2ae6433e.0 -> CA_Disig_Root_R2.pem
-│   │   │   │   ├── 2b349938.0 -> AffirmTrust_Commercial.pem
-│   │   │   │   ├── 2c543cd1.0 -> GeoTrust_Global_CA.pem
-│   │   │   │   ├── 2d9dafe4.0 -> Buypass_Class_3_Root_CA.pem
-│   │   │   │   ├── 2e4eed3c.0 -> thawte_Primary_Root_CA.pem
-│   │   │   │   ├── 2e5ac55d.0 -> DST_Root_CA_X3.pem
-│   │   │   │   ├── 2fa87019.0 -> Network_Solutions_Certificate_Authority.pem
-│   │   │   │   ├── 302904dd.0 -> Certigna_Root_CA.pem
-│   │   │   │   ├── 304d27c3.0 -> UCA_Global_G2_Root.pem
-│   │   │   │   ├── 31188b5e.0 -> TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
-│   │   │   │   ├── 32888f65.0 -> Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
-│   │   │   │   ├── 33ee480d.0 -> SSL.com_Root_Certification_Authority_RSA.pem
-│   │   │   │   ├── 343eb6cb.0 -> Cybertrust_Global_Root.pem
-│   │   │   │   ├── 349f2832.0 -> EC-ACC.pem
-│   │   │   │   ├── 35105088.0 -> USERTrust_RSA_Certification_Authority.pem
-│   │   │   │   ├── 3513523f.0 -> DigiCert_Global_Root_CA.pem
-│   │   │   │   ├── 399e7759.0 -> DigiCert_Global_Root_CA.pem
-│   │   │   │   ├── 3ad48a91.0 -> Baltimore_CyberTrust_Root.pem
-│   │   │   │   ├── 3bde41ac.0 -> Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
-│   │   │   │   ├── 3c6676aa.0 -> Staat_der_Nederlanden_EV_Root_CA.pem
-│   │   │   │   ├── 3c860d51.0 -> SwissSign_Gold_CA_-_G2.pem
-│   │   │   │   ├── 3c899c73.0 -> OISTE_WISeKey_Global_Root_GC_CA.pem
-│   │   │   │   ├── 3c9a4d3b.0 -> ACCVRAIZ1.pem
-│   │   │   │   ├── 3e44d2f7.0 -> TrustCor_RootCert_CA-2.pem
-│   │   │   │   ├── 3e45d192.0 -> Hongkong_Post_Root_CA_1.pem
-│   │   │   │   ├── 3e7271e8.0 -> Entrust.net_Premium_2048_Secure_Server_CA.pem
-│   │   │   │   ├── 40193066.0 -> Certum_Trusted_Network_CA_2.pem
-│   │   │   │   ├── 4042bcee.0 -> ISRG_Root_X1.pem
-│   │   │   │   ├── 40547a79.0 -> COMODO_Certification_Authority.pem
-│   │   │   │   ├── 406c9bb1.0 -> emSign_Root_CA_-_C1.pem
-│   │   │   │   ├── 40dc992e.0 -> Hellenic_Academic_and_Research_Institutions_RootCA_2011.pem
-│   │   │   │   ├── 4304c5e5.0 -> Network_Solutions_Certificate_Authority.pem
-│   │   │   │   ├── 455f1b52.0 -> Entrust_Root_Certification_Authority_-_G2.pem
-│   │   │   │   ├── 480720ec.0 -> GeoTrust_Primary_Certification_Authority.pem
-│   │   │   │   ├── 48a195d8.0 -> Izenpe.com.pem
-│   │   │   │   ├── 48bec511.0 -> Certum_Trusted_Network_CA.pem
-│   │   │   │   ├── 4a6481c9.0 -> GlobalSign_Root_CA_-_R2.pem
-│   │   │   │   ├── 4b718d9b.0 -> emSign_ECC_Root_CA_-_C3.pem
-│   │   │   │   ├── 4be590e0.0 -> IdenTrust_Public_Sector_Root_CA_1.pem
-│   │   │   │   ├── 4bfab552.0 -> Starfield_Root_Certificate_Authority_-_G2.pem
-│   │   │   │   ├── 4f316efb.0 -> SwissSign_Gold_CA_-_G2.pem
-│   │   │   │   ├── 5046c355.0 -> SwissSign_Silver_CA_-_G2.pem
-│   │   │   │   ├── 524d9b43.0 -> VeriSign_Universal_Root_Certification_Authority.pem
-│   │   │   │   ├── 5273a94c.0 -> E-Tugra_Certification_Authority.pem
-│   │   │   │   ├── 52b525c7.0 -> QuoVadis_Root_CA_1_G3.pem
-│   │   │   │   ├── 5443e9e3.0 -> T-TeleSec_GlobalRoot_Class_3.pem
-│   │   │   │   ├── 54657681.0 -> Buypass_Class_2_Root_CA.pem
-│   │   │   │   ├── 57bcb2da.0 -> SwissSign_Silver_CA_-_G2.pem
-│   │   │   │   ├── 583d0756.0 -> SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
-│   │   │   │   ├── 5a250ea7.0 -> Staat_der_Nederlanden_Root_CA_-_G3.pem
-│   │   │   │   ├── 5a3f0ff8.0 -> COMODO_Certification_Authority.pem
-│   │   │   │   ├── 5a4d6896.0 -> Staat_der_Nederlanden_Root_CA_-_G3.pem
-│   │   │   │   ├── 5acf816d.0 -> GTS_Root_R4.pem
-│   │   │   │   ├── 5ad8a5d6.0 -> GlobalSign_Root_CA.pem
-│   │   │   │   ├── 5cd81ad7.0 -> TeliaSonera_Root_CA_v1.pem
-│   │   │   │   ├── 5cf9d536.0 -> QuoVadis_Root_CA.pem
-│   │   │   │   ├── 5d3033c5.0 -> TrustCor_RootCert_CA-1.pem
-│   │   │   │   ├── 5e4e69e7.0 -> VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.pem
-│   │   │   │   ├── 5e98733a.0 -> Entrust_Root_Certification_Authority_-_G4.pem
-│   │   │   │   ├── 5f15c80c.0 -> TWCA_Global_Root_CA.pem
-│   │   │   │   ├── 5f47b495.0 -> Actalis_Authentication_Root_CA.pem
-│   │   │   │   ├── 5f618aec.0 -> certSIGN_Root_CA_G2.pem
-│   │   │   │   ├── 607986c7.0 -> DigiCert_Global_Root_G2.pem
-│   │   │   │   ├── 60afe812.0 -> NetLock_Arany__Class_Gold__F__tan__s__tv__ny.pem
-│   │   │   │   ├── 6187b673.0 -> ISRG_Root_X1.pem
-│   │   │   │   ├── 626dceaf.0 -> GTS_Root_R2.pem
-│   │   │   │   ├── 63a2c897.0 -> TeliaSonera_Root_CA_v1.pem
-│   │   │   │   ├── 653b494a.0 -> Baltimore_CyberTrust_Root.pem
-│   │   │   │   ├── 67495436.0 -> thawte_Primary_Root_CA_-_G3.pem
-│   │   │   │   ├── 68dd7389.0 -> Hongkong_Post_Root_CA_3.pem
-│   │   │   │   ├── 69105f4f.0 -> DigiCert_Assured_ID_Root_CA.pem
-│   │   │   │   ├── 6b03dec0.0 -> GTS_Root_R3.pem
-│   │   │   │   ├── 6b99d060.0 -> Entrust_Root_Certification_Authority.pem
-│   │   │   │   ├── 6d41d539.0 -> Amazon_Root_CA_2.pem
-│   │   │   │   ├── 6fa5da56.0 -> SSL.com_Root_Certification_Authority_RSA.pem
-│   │   │   │   ├── 706f604c.0 -> XRamp_Global_CA_Root.pem
-│   │   │   │   ├── 749e9e03.0 -> QuoVadis_Root_CA_1_G3.pem
-│   │   │   │   ├── 75680d2e.0 -> Comodo_AAA_Services_root.pem
-│   │   │   │   ├── 75d1b2ed.0 -> DigiCert_Trusted_Root_G4.pem
-│   │   │   │   ├── 76579174.0 -> XRamp_Global_CA_Root.pem
-│   │   │   │   ├── 76cb8f92.0 -> Cybertrust_Global_Root.pem
-│   │   │   │   ├── 76faf6c0.0 -> QuoVadis_Root_CA_3.pem
-│   │   │   │   ├── 7719f463.0 -> Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
-│   │   │   │   ├── 773e07ad.0 -> OISTE_WISeKey_Global_Root_GC_CA.pem
-│   │   │   │   ├── 7892ad52.0 -> SSL.com_EV_Root_Certification_Authority_ECC.pem
-│   │   │   │   ├── 7999be0d.0 -> GeoTrust_Global_CA.pem
-│   │   │   │   ├── 7a7c655d.0 -> Amazon_Root_CA_3.pem
-│   │   │   │   ├── 7a819ef2.0 -> QuoVadis_Root_CA_2.pem
-│   │   │   │   ├── 7aaf71c0.0 -> TrustCor_ECA-1.pem
-│   │   │   │   ├── 7c302982.0 -> TrustCor_RootCert_CA-1.pem
-│   │   │   │   ├── 7d0b38bd.0 -> VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.pem
-│   │   │   │   ├── 7f3d5d1d.0 -> DigiCert_Assured_ID_Root_G3.pem
-│   │   │   │   ├── 8160b96c.0 -> Microsec_e-Szigno_Root_CA_2009.pem
-│   │   │   │   ├── 81b9768f.0 -> DigiCert_High_Assurance_EV_Root_CA.pem
-│   │   │   │   ├── 82223c44.0 -> Buypass_Class_2_Root_CA.pem
-│   │   │   │   ├── 83e9984f.0 -> e-Szigno_Root_CA_2017.pem
-│   │   │   │   ├── 85cde254.0 -> Starfield_Root_Certificate_Authority_-_G2.pem
-│   │   │   │   ├── 86212b19.0 -> AffirmTrust_Networking.pem
-│   │   │   │   ├── 869fbf79.0 -> emSign_ECC_Root_CA_-_C3.pem
-│   │   │   │   ├── 87753b0d.0 -> GeoTrust_Universal_CA_2.pem
-│   │   │   │   ├── 882de061.0 -> certSIGN_ROOT_CA.pem
-│   │   │   │   ├── 8867006a.0 -> GeoTrust_Universal_CA_2.pem
-│   │   │   │   ├── 88950faa.0 -> SSL.com_Root_Certification_Authority_ECC.pem
-│   │   │   │   ├── 89c02a45.0 -> COMODO_ECC_Certification_Authority.pem
-│   │   │   │   ├── 8cb5ee0f.0 -> Amazon_Root_CA_3.pem
-│   │   │   │   ├── 8d6437c3.0 -> DigiCert_Assured_ID_Root_G2.pem
-│   │   │   │   ├── 8d86cdd1.0 -> certSIGN_ROOT_CA.pem
-│   │   │   │   ├── 8d89cda1.0 -> Microsoft_ECC_Root_Certificate_Authority_2017.pem
-│   │   │   │   ├── 9282e51c.0 -> CFCA_EV_ROOT.pem
-│   │   │   │   ├── 930ac5d2.0 -> Actalis_Authentication_Root_CA.pem
-│   │   │   │   ├── 9339512a.0 -> QuoVadis_Root_CA_3.pem
-│   │   │   │   ├── 93bc0acc.0 -> AffirmTrust_Networking.pem
-│   │   │   │   ├── 9479c8c3.0 -> Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
-│   │   │   │   ├── 9576d26b.0 -> CA_Disig_Root_R2.pem
-│   │   │   │   ├── 9591a472.0 -> Microsoft_RSA_Root_Certificate_Authority_2017.pem
-│   │   │   │   ├── 95aff9e3.0 -> Certum_Trusted_Network_CA.pem
-│   │   │   │   ├── 9685a493.0 -> Hongkong_Post_Root_CA_1.pem
-│   │   │   │   ├── 9772ca32.0 -> GeoTrust_Primary_Certification_Authority.pem
-│   │   │   │   ├── 985c1f52.0 -> GlobalSign_Root_CA_-_R6.pem
-│   │   │   │   ├── 988a38cb.0 -> NetLock_Arany__Class_Gold__F__tan__s__tv__ny.pem
-│   │   │   │   ├── 9aef356c.0 -> Trustwave_Global_ECC_P384_Certification_Authority.pem
-│   │   │   │   ├── 9b5697b0.0 -> Trustwave_Global_ECC_P256_Certification_Authority.pem
-│   │   │   │   ├── 9c2e7d30.0 -> Sonera_Class_2_Root_CA.pem
-│   │   │   │   ├── 9c8dfbd4.0 -> AffirmTrust_Premium_ECC.pem
-│   │   │   │   ├── 9d04f354.0 -> DigiCert_Assured_ID_Root_G2.pem
-│   │   │   │   ├── 9d6523ce.0 -> ePKI_Root_Certification_Authority.pem
-│   │   │   │   ├── 9f533518.0 -> Global_Chambersign_Root_-_2008.pem
-│   │   │   │   ├── a2c66da8.0 -> DigiCert_Trusted_Root_G4.pem
-│   │   │   │   ├── a3418fda.0 -> GTS_Root_R4.pem
-│   │   │   │   ├── a3896b44.0 -> Security_Communication_Root_CA.pem
-│   │   │   │   ├── a7605362.0 -> Sonera_Class_2_Root_CA.pem
-│   │   │   │   ├── a7d2cf64.0 -> thawte_Primary_Root_CA_-_G2.pem
-│   │   │   │   ├── a81e292b.0 -> SZAFIR_ROOT_CA2.pem
-│   │   │   │   ├── a94d09e5.0 -> ACCVRAIZ1.pem
-│   │   │   │   ├── a9d40e02.0 -> certSIGN_Root_CA_G2.pem
-│   │   │   │   ├── ab5346f4.0 -> SecureSign_RootCA11.pem
-│   │   │   │   ├── ab59055e.0 -> GDCA_TrustAUTH_R5_ROOT.pem
-│   │   │   │   ├── ACCVRAIZ1.pem
-│   │   │   │   ├── AC_RAIZ_FNMT-RCM.pem
-│   │   │   │   ├── Actalis_Authentication_Root_CA.pem
-│   │   │   │   ├── ad088e1d.0 -> GeoTrust_Universal_CA.pem
-│   │   │   │   ├── aeb67534.0 -> EC-ACC.pem
-│   │   │   │   ├── aee5f10d.0 -> Entrust.net_Premium_2048_Secure_Server_CA.pem
-│   │   │   │   ├── AffirmTrust_Commercial.pem
-│   │   │   │   ├── AffirmTrust_Networking.pem
-│   │   │   │   ├── AffirmTrust_Premium_ECC.pem
-│   │   │   │   ├── AffirmTrust_Premium.pem
-│   │   │   │   ├── Amazon_Root_CA_1.pem
-│   │   │   │   ├── Amazon_Root_CA_2.pem
-│   │   │   │   ├── Amazon_Root_CA_3.pem
-│   │   │   │   ├── Amazon_Root_CA_4.pem
-│   │   │   │   ├── Atos_TrustedRoot_2011.pem
-│   │   │   │   ├── Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
-│   │   │   │   ├── b0e59380.0 -> GlobalSign_ECC_Root_CA_-_R4.pem
-│   │   │   │   ├── b0ed035a.0 -> TWCA_Global_Root_CA.pem
-│   │   │   │   ├── b0f3e76e.0 -> GlobalSign_Root_CA.pem
-│   │   │   │   ├── b1159c4c.0 -> DigiCert_Assured_ID_Root_CA.pem
-│   │   │   │   ├── b204d74a.0 -> VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.pem
-│   │   │   │   ├── b3fb433b.0 -> Entrust_Root_Certification_Authority_-_EC1.pem
-│   │   │   │   ├── b66938e9.0 -> Secure_Global_CA.pem
-│   │   │   │   ├── b727005e.0 -> AffirmTrust_Premium.pem
-│   │   │   │   ├── b74d2bd5.0 -> emSign_ECC_Root_CA_-_G3.pem
-│   │   │   │   ├── b7a5b843.0 -> TWCA_Root_Certification_Authority.pem
-│   │   │   │   ├── b7db1890.0 -> TWCA_Root_Certification_Authority.pem
-│   │   │   │   ├── b872f2b4.0 -> Atos_TrustedRoot_2011.pem
-│   │   │   │   ├── b936d1c6.0 -> AC_RAIZ_FNMT-RCM.pem
-│   │   │   │   ├── ba89ed3b.0 -> thawte_Primary_Root_CA_-_G3.pem
-│   │   │   │   ├── Baltimore_CyberTrust_Root.pem
-│   │   │   │   ├── bc3f2570.0 -> Go_Daddy_Root_Certificate_Authority_-_G2.pem
-│   │   │   │   ├── bd43e1dd.0 -> Hongkong_Post_Root_CA_3.pem
-│   │   │   │   ├── bdacca6f.0 -> Secure_Global_CA.pem
-│   │   │   │   ├── bf53fb88.0 -> Microsoft_RSA_Root_Certificate_Authority_2017.pem
-│   │   │   │   ├── bf64f35b.0 -> Entrust_Root_Certification_Authority.pem
-│   │   │   │   ├── Buypass_Class_2_Root_CA.pem
-│   │   │   │   ├── Buypass_Class_3_Root_CA.pem
-│   │   │   │   ├── c01cdfa2.0 -> VeriSign_Universal_Root_Certification_Authority.pem
-│   │   │   │   ├── c01eb047.0 -> UCA_Global_G2_Root.pem
-│   │   │   │   ├── c089bbbd.0 -> thawte_Primary_Root_CA_-_G2.pem
-│   │   │   │   ├── c28a8a30.0 -> D-TRUST_Root_Class_3_CA_2_2009.pem
-│   │   │   │   ├── c2c1704e.0 -> TrustCor_ECA-1.pem
-│   │   │   │   ├── c47d9980.0 -> Chambers_of_Commerce_Root_-_2008.pem
-│   │   │   │   ├── c491639e.0 -> DigiCert_Assured_ID_Root_G3.pem
-│   │   │   │   ├── c51c224c.0 -> Trustis_FPS_Root_CA.pem
-│   │   │   │   ├── c559d742.0 -> GTS_Root_R2.pem
-│   │   │   │   ├── c7e2a638.0 -> GeoTrust_Primary_Certification_Authority_-_G3.pem
-│   │   │   │   ├── c90bc37d.0 -> DigiCert_Global_Root_G2.pem
-│   │   │   │   ├── ca6e4ad9.0 -> ePKI_Root_Certification_Authority.pem
-│   │   │   │   ├── CA_Disig_Root_R2.pem
-│   │   │   │   ├── cb156124.0 -> E-Tugra_Certification_Authority.pem
-│   │   │   │   ├── cb1c3204.0 -> Certum_Trusted_Network_CA_2.pem
-│   │   │   │   ├── cbf06781.0 -> Go_Daddy_Root_Certificate_Authority_-_G2.pem
-│   │   │   │   ├── cc450945.0 -> Izenpe.com.pem
-│   │   │   │   ├── ccc52f49.0 -> AffirmTrust_Premium_ECC.pem
-│   │   │   │   ├── cd58d51e.0 -> Security_Communication_RootCA2.pem
-│   │   │   │   ├── cd8c0d63.0 -> AC_RAIZ_FNMT-RCM.pem
-│   │   │   │   ├── ce5e74ef.0 -> Amazon_Root_CA_1.pem
-│   │   │   │   ├── Certigna.pem
-│   │   │   │   ├── Certigna_Root_CA.pem
-│   │   │   │   ├── certSIGN_Root_CA_G2.pem
-│   │   │   │   ├── certSIGN_ROOT_CA.pem
-│   │   │   │   ├── Certum_Trusted_Network_CA_2.pem
-│   │   │   │   ├── Certum_Trusted_Network_CA.pem
-│   │   │   │   ├── cf701eeb.0 -> SecureTrust_CA.pem
-│   │   │   │   ├── CFCA_EV_ROOT.pem
-│   │   │   │   ├── Chambers_of_Commerce_Root_-_2008.pem
-│   │   │   │   ├── Comodo_AAA_Services_root.pem
-│   │   │   │   ├── COMODO_Certification_Authority.pem
-│   │   │   │   ├── COMODO_ECC_Certification_Authority.pem
-│   │   │   │   ├── COMODO_RSA_Certification_Authority.pem
-│   │   │   │   ├── Cybertrust_Global_Root.pem
-│   │   │   │   ├── d06393bb.0 -> T-TeleSec_GlobalRoot_Class_2.pem
-│   │   │   │   ├── d0cddf45.0 -> TrustCor_RootCert_CA-2.pem
-│   │   │   │   ├── d16a5865.0 -> Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
-│   │   │   │   ├── d18e9066.0 -> IdenTrust_Commercial_Root_CA_1.pem
-│   │   │   │   ├── d41b5e2a.0 -> Amazon_Root_CA_4.pem
-│   │   │   │   ├── d4c339cb.0 -> COMODO_RSA_Certification_Authority.pem
-│   │   │   │   ├── d4dae3dd.0 -> D-TRUST_Root_Class_3_CA_2_EV_2009.pem
-│   │   │   │   ├── d59297b8.0 -> Security_Communication_RootCA2.pem
-│   │   │   │   ├── d6325660.0 -> COMODO_RSA_Certification_Authority.pem
-│   │   │   │   ├── d7746a63.0 -> D-TRUST_Root_Class_3_CA_2_EV_2009.pem
-│   │   │   │   ├── d7e8dc79.0 -> QuoVadis_Root_CA_2.pem
-│   │   │   │   ├── d853d49e.0 -> Trustis_FPS_Root_CA.pem
-│   │   │   │   ├── d887a5bb.0 -> Trustwave_Global_ECC_P384_Certification_Authority.pem
-│   │   │   │   ├── da7377f6.0 -> UCA_Extended_Validation_Root.pem
-│   │   │   │   ├── dbc54cab.0 -> AffirmTrust_Premium.pem
-│   │   │   │   ├── dbff3a01.0 -> emSign_Root_CA_-_C1.pem
-│   │   │   │   ├── dc4d6a89.0 -> GlobalSign_Root_CA_-_R6.pem
-│   │   │   │   ├── dc99f41e.0 -> Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
-│   │   │   │   ├── dd8e9d41.0 -> DigiCert_Global_Root_G3.pem
-│   │   │   │   ├── de6d66f3.0 -> Amazon_Root_CA_4.pem
-│   │   │   │   ├── dfc0fe80.0 -> OISTE_WISeKey_Global_Root_GB_CA.pem
-│   │   │   │   ├── DigiCert_Assured_ID_Root_CA.pem
-│   │   │   │   ├── DigiCert_Assured_ID_Root_G2.pem
-│   │   │   │   ├── DigiCert_Assured_ID_Root_G3.pem
-│   │   │   │   ├── DigiCert_Global_Root_CA.pem
-│   │   │   │   ├── DigiCert_Global_Root_G2.pem
-│   │   │   │   ├── DigiCert_Global_Root_G3.pem
-│   │   │   │   ├── DigiCert_High_Assurance_EV_Root_CA.pem
-│   │   │   │   ├── DigiCert_Trusted_Root_G4.pem
-│   │   │   │   ├── DST_Root_CA_X3.pem
-│   │   │   │   ├── D-TRUST_Root_Class_3_CA_2_2009.pem
-│   │   │   │   ├── D-TRUST_Root_Class_3_CA_2_EV_2009.pem
-│   │   │   │   ├── e113c810.0 -> Certigna.pem
-│   │   │   │   ├── e18bfb83.0 -> QuoVadis_Root_CA_3_G3.pem
-│   │   │   │   ├── e2799e36.0 -> GeoTrust_Primary_Certification_Authority_-_G3.pem
-│   │   │   │   ├── e36a6752.0 -> Atos_TrustedRoot_2011.pem
-│   │   │   │   ├── e442e424.0 -> QuoVadis_Root_CA_3_G3.pem
-│   │   │   │   ├── e48193cf.0 -> AffirmTrust_Commercial.pem
-│   │   │   │   ├── e73d606e.0 -> OISTE_WISeKey_Global_Root_GB_CA.pem
-│   │   │   │   ├── e775ed2d.0 -> GeoTrust_Universal_CA.pem
-│   │   │   │   ├── e8651083.0 -> Microsec_e-Szigno_Root_CA_2009.pem
-│   │   │   │   ├── e868b802.0 -> e-Szigno_Root_CA_2017.pem
-│   │   │   │   ├── e8de2f56.0 -> Buypass_Class_3_Root_CA.pem
-│   │   │   │   ├── EC-ACC.pem
-│   │   │   │   ├── ed39abd0.0 -> DigiCert_Global_Root_G3.pem
-│   │   │   │   ├── edcbddb5.0 -> Trustwave_Global_Certification_Authority.pem
-│   │   │   │   ├── ee64a828.0 -> Comodo_AAA_Services_root.pem
-│   │   │   │   ├── eed8c118.0 -> COMODO_ECC_Certification_Authority.pem
-│   │   │   │   ├── ef954a4e.0 -> IdenTrust_Commercial_Root_CA_1.pem
-│   │   │   │   ├── emSign_ECC_Root_CA_-_C3.pem
-│   │   │   │   ├── emSign_ECC_Root_CA_-_G3.pem
-│   │   │   │   ├── emSign_Root_CA_-_C1.pem
-│   │   │   │   ├── emSign_Root_CA_-_G1.pem
-│   │   │   │   ├── Entrust.net_Premium_2048_Secure_Server_CA.pem
-│   │   │   │   ├── Entrust_Root_Certification_Authority_-_EC1.pem
-│   │   │   │   ├── Entrust_Root_Certification_Authority_-_G2.pem
-│   │   │   │   ├── Entrust_Root_Certification_Authority_-_G4.pem
-│   │   │   │   ├── Entrust_Root_Certification_Authority.pem
-│   │   │   │   ├── ePKI_Root_Certification_Authority.pem
-│   │   │   │   ├── e-Szigno_Root_CA_2017.pem
-│   │   │   │   ├── E-Tugra_Certification_Authority.pem
-│   │   │   │   ├── f013ecaf.0 -> GTS_Root_R1.pem
-│   │   │   │   ├── f081611a.0 -> Go_Daddy_Class_2_CA.pem
-│   │   │   │   ├── f0c70a8d.0 -> SSL.com_EV_Root_Certification_Authority_ECC.pem
-│   │   │   │   ├── f0cd152c.0 -> Entrust_Root_Certification_Authority_-_G4.pem
-│   │   │   │   ├── f249de83.0 -> Trustwave_Global_Certification_Authority.pem
-│   │   │   │   ├── f30dd6ad.0 -> USERTrust_ECC_Certification_Authority.pem
-│   │   │   │   ├── f3377b1b.0 -> Security_Communication_Root_CA.pem
-│   │   │   │   ├── f387163d.0 -> Starfield_Class_2_CA.pem
-│   │   │   │   ├── f39fc864.0 -> SecureTrust_CA.pem
-│   │   │   │   ├── f459871d.0 -> emSign_Root_CA_-_G1.pem
-│   │   │   │   ├── f51bb24c.0 -> Certigna_Root_CA.pem
-│   │   │   │   ├── facacbc6.0 -> VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.pem
-│   │   │   │   ├── fb5fa911.0 -> Amazon_Root_CA_2.pem
-│   │   │   │   ├── fc5a8f99.0 -> USERTrust_RSA_Certification_Authority.pem
-│   │   │   │   ├── fd08c599.0 -> Amazon_Root_CA_1.pem
-│   │   │   │   ├── fde84897.0 -> Certigna.pem
-│   │   │   │   ├── fe8a2cd8.0 -> SZAFIR_ROOT_CA2.pem
-│   │   │   │   ├── ff34af3f.0 -> TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
-│   │   │   │   ├── GDCA_TrustAUTH_R5_ROOT.pem
-│   │   │   │   ├── GeoTrust_Global_CA.pem
-│   │   │   │   ├── GeoTrust_Primary_Certification_Authority_-_G2.pem
-│   │   │   │   ├── GeoTrust_Primary_Certification_Authority_-_G3.pem
-│   │   │   │   ├── GeoTrust_Primary_Certification_Authority.pem
-│   │   │   │   ├── GeoTrust_Universal_CA_2.pem
-│   │   │   │   ├── GeoTrust_Universal_CA.pem
-│   │   │   │   ├── Global_Chambersign_Root_-_2008.pem
-│   │   │   │   ├── GlobalSign_ECC_Root_CA_-_R4.pem
-│   │   │   │   ├── GlobalSign_ECC_Root_CA_-_R5.pem
-│   │   │   │   ├── GlobalSign_Root_CA.pem
-│   │   │   │   ├── GlobalSign_Root_CA_-_R2.pem
-│   │   │   │   ├── GlobalSign_Root_CA_-_R3.pem
-│   │   │   │   ├── GlobalSign_Root_CA_-_R6.pem
-│   │   │   │   ├── Go_Daddy_Class_2_CA.pem
-│   │   │   │   ├── Go_Daddy_Root_Certificate_Authority_-_G2.pem
-│   │   │   │   ├── GTS_Root_R1.pem
-│   │   │   │   ├── GTS_Root_R2.pem
-│   │   │   │   ├── GTS_Root_R3.pem
-│   │   │   │   ├── GTS_Root_R4.pem
-│   │   │   │   ├── Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
-│   │   │   │   ├── Hellenic_Academic_and_Research_Institutions_RootCA_2011.pem
-│   │   │   │   ├── Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
-│   │   │   │   ├── Hongkong_Post_Root_CA_1.pem
-│   │   │   │   ├── Hongkong_Post_Root_CA_3.pem
-│   │   │   │   ├── IdenTrust_Commercial_Root_CA_1.pem
-│   │   │   │   ├── IdenTrust_Public_Sector_Root_CA_1.pem
-│   │   │   │   ├── ISRG_Root_X1.pem
-│   │   │   │   ├── Izenpe.com.pem
-│   │   │   │   ├── Microsec_e-Szigno_Root_CA_2009.pem
-│   │   │   │   ├── Microsoft_ECC_Root_Certificate_Authority_2017.pem
-│   │   │   │   ├── Microsoft_RSA_Root_Certificate_Authority_2017.pem
-│   │   │   │   ├── NetLock_Arany__Class_Gold__F__tan__s__tv__ny.pem
-│   │   │   │   ├── Network_Solutions_Certificate_Authority.pem
-│   │   │   │   ├── OISTE_WISeKey_Global_Root_GB_CA.pem
-│   │   │   │   ├── OISTE_WISeKey_Global_Root_GC_CA.pem
-│   │   │   │   ├── QuoVadis_Root_CA_1_G3.pem
-│   │   │   │   ├── QuoVadis_Root_CA_2_G3.pem
-│   │   │   │   ├── QuoVadis_Root_CA_2.pem
-│   │   │   │   ├── QuoVadis_Root_CA_3_G3.pem
-│   │   │   │   ├── QuoVadis_Root_CA_3.pem
-│   │   │   │   ├── QuoVadis_Root_CA.pem
-│   │   │   │   ├── Secure_Global_CA.pem
-│   │   │   │   ├── SecureSign_RootCA11.pem
-│   │   │   │   ├── SecureTrust_CA.pem
-│   │   │   │   ├── Security_Communication_RootCA2.pem
-│   │   │   │   ├── Security_Communication_Root_CA.pem
-│   │   │   │   ├── Sonera_Class_2_Root_CA.pem
-│   │   │   │   ├── SSL.com_EV_Root_Certification_Authority_ECC.pem
-│   │   │   │   ├── SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
-│   │   │   │   ├── SSL.com_Root_Certification_Authority_ECC.pem
-│   │   │   │   ├── SSL.com_Root_Certification_Authority_RSA.pem
-│   │   │   │   ├── Staat_der_Nederlanden_EV_Root_CA.pem
-│   │   │   │   ├── Staat_der_Nederlanden_Root_CA_-_G3.pem
-│   │   │   │   ├── Starfield_Class_2_CA.pem
-│   │   │   │   ├── Starfield_Root_Certificate_Authority_-_G2.pem
-│   │   │   │   ├── Starfield_Services_Root_Certificate_Authority_-_G2.pem
-│   │   │   │   ├── SwissSign_Gold_CA_-_G2.pem
-│   │   │   │   ├── SwissSign_Silver_CA_-_G2.pem
-│   │   │   │   ├── SZAFIR_ROOT_CA2.pem
-│   │   │   │   ├── TeliaSonera_Root_CA_v1.pem
-│   │   │   │   ├── thawte_Primary_Root_CA_-_G2.pem
-│   │   │   │   ├── thawte_Primary_Root_CA_-_G3.pem
-│   │   │   │   ├── thawte_Primary_Root_CA.pem
-│   │   │   │   ├── TrustCor_ECA-1.pem
-│   │   │   │   ├── TrustCor_RootCert_CA-1.pem
-│   │   │   │   ├── TrustCor_RootCert_CA-2.pem
-│   │   │   │   ├── Trustis_FPS_Root_CA.pem
-│   │   │   │   ├── Trustwave_Global_Certification_Authority.pem
-│   │   │   │   ├── Trustwave_Global_ECC_P256_Certification_Authority.pem
-│   │   │   │   ├── Trustwave_Global_ECC_P384_Certification_Authority.pem
-│   │   │   │   ├── T-TeleSec_GlobalRoot_Class_2.pem
-│   │   │   │   ├── T-TeleSec_GlobalRoot_Class_3.pem
-│   │   │   │   ├── TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
-│   │   │   │   ├── TWCA_Global_Root_CA.pem
-│   │   │   │   ├── TWCA_Root_Certification_Authority.pem
-│   │   │   │   ├── UCA_Extended_Validation_Root.pem
-│   │   │   │   ├── UCA_Global_G2_Root.pem
-│   │   │   │   ├── USERTrust_ECC_Certification_Authority.pem
-│   │   │   │   ├── USERTrust_RSA_Certification_Authority.pem
-│   │   │   │   ├── VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.pem
-│   │   │   │   ├── VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.pem
-│   │   │   │   ├── VeriSign_Universal_Root_Certification_Authority.pem
-│   │   │   │   └── XRamp_Global_CA_Root.pem
-│   │   │   ├── edk2-cacerts.bin
-│   │   │   ├── email-ca-bundle.pem
-│   │   │   ├── objsign-ca-bundle.pem
-│   │   │   └── tls-ca-bundle.pem
-│   │   └── trust-source
-│   │       ├── anchors
-│   │       └── blacklist
+│   │   └── extracted
+│   │       ├── ca-bundle.trust.crt
+│   │       ├── cadir
+│   │       │   ├── 00673b5b.0 -> thawte_Primary_Root_CA.pem
+│   │       │   ├── 01419da9.0 -> Microsoft_ECC_Root_Certificate_Authority_2017.pem
+│   │       │   ├── 02265526.0 -> Entrust_Root_Certification_Authority_-_G2.pem
+│   │       │   ├── 03179a64.0 -> Staat_der_Nederlanden_EV_Root_CA.pem
+│   │       │   ├── 04f60c28.0 -> USERTrust_ECC_Certification_Authority.pem
+│   │       │   ├── 062cdee6.0 -> GlobalSign_Root_CA_-_R3.pem
+│   │       │   ├── 064e0aa9.0 -> QuoVadis_Root_CA_2_G3.pem
+│   │       │   ├── 06dc52d5.0 -> SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
+│   │       │   ├── 080911ac.0 -> QuoVadis_Root_CA.pem
+│   │       │   ├── 09789157.0 -> Starfield_Services_Root_Certificate_Authority_-_G2.pem
+│   │       │   ├── 0a775a30.0 -> GTS_Root_R3.pem
+│   │       │   ├── 0b1b94ef.0 -> CFCA_EV_ROOT.pem
+│   │       │   ├── 0bf05006.0 -> SSL.com_Root_Certification_Authority_ECC.pem
+│   │       │   ├── 0c4c9b6c.0 -> Global_Chambersign_Root_-_2008.pem
+│   │       │   ├── 0d69c7e1.0 -> GlobalSign_ECC_Root_CA_-_R4.pem
+│   │       │   ├── 0f5dc4f3.0 -> UCA_Extended_Validation_Root.pem
+│   │       │   ├── 0f6fa695.0 -> GDCA_TrustAUTH_R5_ROOT.pem
+│   │       │   ├── 1001acf7.0 -> GTS_Root_R1.pem
+│   │       │   ├── 10531352.0 -> Starfield_Services_Root_Certificate_Authority_-_G2.pem
+│   │       │   ├── 106f3e4d.0 -> Entrust_Root_Certification_Authority_-_EC1.pem
+│   │       │   ├── 111e6273.0 -> GlobalSign_Root_CA_-_R2.pem
+│   │       │   ├── 116bf586.0 -> GeoTrust_Primary_Certification_Authority_-_G2.pem
+│   │       │   ├── 12d55845.0 -> DST_Root_CA_X3.pem
+│   │       │   ├── 14bc7599.0 -> emSign_ECC_Root_CA_-_G3.pem
+│   │       │   ├── 1636090b.0 -> Hellenic_Academic_and_Research_Institutions_RootCA_2011.pem
+│   │       │   ├── 18856ac4.0 -> SecureSign_RootCA11.pem
+│   │       │   ├── 1ae85e5e.0 -> Trustwave_Global_ECC_P256_Certification_Authority.pem
+│   │       │   ├── 1d3472b9.0 -> GlobalSign_ECC_Root_CA_-_R5.pem
+│   │       │   ├── 1df5a75f.0 -> D-TRUST_Root_Class_3_CA_2_2009.pem
+│   │       │   ├── 1e08bfd1.0 -> IdenTrust_Public_Sector_Root_CA_1.pem
+│   │       │   ├── 1e09d511.0 -> T-TeleSec_GlobalRoot_Class_2.pem
+│   │       │   ├── 1e1eab7c.0 -> T-TeleSec_GlobalRoot_Class_3.pem
+│   │       │   ├── 1e8e7201.0 -> GlobalSign_Root_CA_-_R3.pem
+│   │       │   ├── 1eb37bdf.0 -> Chambers_of_Commerce_Root_-_2008.pem
+│   │       │   ├── 1f58a078.0 -> QuoVadis_Root_CA_2_G3.pem
+│   │       │   ├── 219d9499.0 -> Go_Daddy_Class_2_CA.pem
+│   │       │   ├── 23f4c490.0 -> Starfield_Class_2_CA.pem
+│   │       │   ├── 244b5494.0 -> DigiCert_High_Assurance_EV_Root_CA.pem
+│   │       │   ├── 27af790d.0 -> GeoTrust_Primary_Certification_Authority_-_G2.pem
+│   │       │   ├── 2923b3f9.0 -> emSign_Root_CA_-_G1.pem
+│   │       │   ├── 2add47b6.0 -> GlobalSign_ECC_Root_CA_-_R5.pem
+│   │       │   ├── 2ae6433e.0 -> CA_Disig_Root_R2.pem
+│   │       │   ├── 2b349938.0 -> AffirmTrust_Commercial.pem
+│   │       │   ├── 2c543cd1.0 -> GeoTrust_Global_CA.pem
+│   │       │   ├── 2d9dafe4.0 -> Buypass_Class_3_Root_CA.pem
+│   │       │   ├── 2e4eed3c.0 -> thawte_Primary_Root_CA.pem
+│   │       │   ├── 2e5ac55d.0 -> DST_Root_CA_X3.pem
+│   │       │   ├── 2fa87019.0 -> Network_Solutions_Certificate_Authority.pem
+│   │       │   ├── 302904dd.0 -> Certigna_Root_CA.pem
+│   │       │   ├── 304d27c3.0 -> UCA_Global_G2_Root.pem
+│   │       │   ├── 31188b5e.0 -> TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
+│   │       │   ├── 32888f65.0 -> Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+│   │       │   ├── 33ee480d.0 -> SSL.com_Root_Certification_Authority_RSA.pem
+│   │       │   ├── 343eb6cb.0 -> Cybertrust_Global_Root.pem
+│   │       │   ├── 349f2832.0 -> EC-ACC.pem
+│   │       │   ├── 35105088.0 -> USERTrust_RSA_Certification_Authority.pem
+│   │       │   ├── 3513523f.0 -> DigiCert_Global_Root_CA.pem
+│   │       │   ├── 399e7759.0 -> DigiCert_Global_Root_CA.pem
+│   │       │   ├── 3ad48a91.0 -> Baltimore_CyberTrust_Root.pem
+│   │       │   ├── 3bde41ac.0 -> Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+│   │       │   ├── 3c6676aa.0 -> Staat_der_Nederlanden_EV_Root_CA.pem
+│   │       │   ├── 3c860d51.0 -> SwissSign_Gold_CA_-_G2.pem
+│   │       │   ├── 3c899c73.0 -> OISTE_WISeKey_Global_Root_GC_CA.pem
+│   │       │   ├── 3c9a4d3b.0 -> ACCVRAIZ1.pem
+│   │       │   ├── 3e44d2f7.0 -> TrustCor_RootCert_CA-2.pem
+│   │       │   ├── 3e45d192.0 -> Hongkong_Post_Root_CA_1.pem
+│   │       │   ├── 3e7271e8.0 -> Entrust.net_Premium_2048_Secure_Server_CA.pem
+│   │       │   ├── 40193066.0 -> Certum_Trusted_Network_CA_2.pem
+│   │       │   ├── 4042bcee.0 -> ISRG_Root_X1.pem
+│   │       │   ├── 40547a79.0 -> COMODO_Certification_Authority.pem
+│   │       │   ├── 406c9bb1.0 -> emSign_Root_CA_-_C1.pem
+│   │       │   ├── 40dc992e.0 -> Hellenic_Academic_and_Research_Institutions_RootCA_2011.pem
+│   │       │   ├── 4304c5e5.0 -> Network_Solutions_Certificate_Authority.pem
+│   │       │   ├── 455f1b52.0 -> Entrust_Root_Certification_Authority_-_G2.pem
+│   │       │   ├── 480720ec.0 -> GeoTrust_Primary_Certification_Authority.pem
+│   │       │   ├── 48a195d8.0 -> Izenpe.com.pem
+│   │       │   ├── 48bec511.0 -> Certum_Trusted_Network_CA.pem
+│   │       │   ├── 4a6481c9.0 -> GlobalSign_Root_CA_-_R2.pem
+│   │       │   ├── 4b718d9b.0 -> emSign_ECC_Root_CA_-_C3.pem
+│   │       │   ├── 4be590e0.0 -> IdenTrust_Public_Sector_Root_CA_1.pem
+│   │       │   ├── 4bfab552.0 -> Starfield_Root_Certificate_Authority_-_G2.pem
+│   │       │   ├── 4f316efb.0 -> SwissSign_Gold_CA_-_G2.pem
+│   │       │   ├── 5046c355.0 -> SwissSign_Silver_CA_-_G2.pem
+│   │       │   ├── 524d9b43.0 -> VeriSign_Universal_Root_Certification_Authority.pem
+│   │       │   ├── 5273a94c.0 -> E-Tugra_Certification_Authority.pem
+│   │       │   ├── 52b525c7.0 -> QuoVadis_Root_CA_1_G3.pem
+│   │       │   ├── 5443e9e3.0 -> T-TeleSec_GlobalRoot_Class_3.pem
+│   │       │   ├── 54657681.0 -> Buypass_Class_2_Root_CA.pem
+│   │       │   ├── 57bcb2da.0 -> SwissSign_Silver_CA_-_G2.pem
+│   │       │   ├── 583d0756.0 -> SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
+│   │       │   ├── 5a250ea7.0 -> Staat_der_Nederlanden_Root_CA_-_G3.pem
+│   │       │   ├── 5a3f0ff8.0 -> COMODO_Certification_Authority.pem
+│   │       │   ├── 5a4d6896.0 -> Staat_der_Nederlanden_Root_CA_-_G3.pem
+│   │       │   ├── 5acf816d.0 -> GTS_Root_R4.pem
+│   │       │   ├── 5ad8a5d6.0 -> GlobalSign_Root_CA.pem
+│   │       │   ├── 5cd81ad7.0 -> TeliaSonera_Root_CA_v1.pem
+│   │       │   ├── 5cf9d536.0 -> QuoVadis_Root_CA.pem
+│   │       │   ├── 5d3033c5.0 -> TrustCor_RootCert_CA-1.pem
+│   │       │   ├── 5e4e69e7.0 -> VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.pem
+│   │       │   ├── 5e98733a.0 -> Entrust_Root_Certification_Authority_-_G4.pem
+│   │       │   ├── 5f15c80c.0 -> TWCA_Global_Root_CA.pem
+│   │       │   ├── 5f47b495.0 -> Actalis_Authentication_Root_CA.pem
+│   │       │   ├── 5f618aec.0 -> certSIGN_Root_CA_G2.pem
+│   │       │   ├── 607986c7.0 -> DigiCert_Global_Root_G2.pem
+│   │       │   ├── 60afe812.0 -> NetLock_Arany__Class_Gold__F__tan__s__tv__ny.pem
+│   │       │   ├── 6187b673.0 -> ISRG_Root_X1.pem
+│   │       │   ├── 626dceaf.0 -> GTS_Root_R2.pem
+│   │       │   ├── 63a2c897.0 -> TeliaSonera_Root_CA_v1.pem
+│   │       │   ├── 653b494a.0 -> Baltimore_CyberTrust_Root.pem
+│   │       │   ├── 67495436.0 -> thawte_Primary_Root_CA_-_G3.pem
+│   │       │   ├── 68dd7389.0 -> Hongkong_Post_Root_CA_3.pem
+│   │       │   ├── 69105f4f.0 -> DigiCert_Assured_ID_Root_CA.pem
+│   │       │   ├── 6b03dec0.0 -> GTS_Root_R3.pem
+│   │       │   ├── 6b99d060.0 -> Entrust_Root_Certification_Authority.pem
+│   │       │   ├── 6d41d539.0 -> Amazon_Root_CA_2.pem
+│   │       │   ├── 6fa5da56.0 -> SSL.com_Root_Certification_Authority_RSA.pem
+│   │       │   ├── 706f604c.0 -> XRamp_Global_CA_Root.pem
+│   │       │   ├── 749e9e03.0 -> QuoVadis_Root_CA_1_G3.pem
+│   │       │   ├── 75680d2e.0 -> Comodo_AAA_Services_root.pem
+│   │       │   ├── 75d1b2ed.0 -> DigiCert_Trusted_Root_G4.pem
+│   │       │   ├── 76579174.0 -> XRamp_Global_CA_Root.pem
+│   │       │   ├── 76cb8f92.0 -> Cybertrust_Global_Root.pem
+│   │       │   ├── 76faf6c0.0 -> QuoVadis_Root_CA_3.pem
+│   │       │   ├── 7719f463.0 -> Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+│   │       │   ├── 773e07ad.0 -> OISTE_WISeKey_Global_Root_GC_CA.pem
+│   │       │   ├── 7892ad52.0 -> SSL.com_EV_Root_Certification_Authority_ECC.pem
+│   │       │   ├── 7999be0d.0 -> GeoTrust_Global_CA.pem
+│   │       │   ├── 7a7c655d.0 -> Amazon_Root_CA_3.pem
+│   │       │   ├── 7a819ef2.0 -> QuoVadis_Root_CA_2.pem
+│   │       │   ├── 7aaf71c0.0 -> TrustCor_ECA-1.pem
+│   │       │   ├── 7c302982.0 -> TrustCor_RootCert_CA-1.pem
+│   │       │   ├── 7d0b38bd.0 -> VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.pem
+│   │       │   ├── 7f3d5d1d.0 -> DigiCert_Assured_ID_Root_G3.pem
+│   │       │   ├── 8160b96c.0 -> Microsec_e-Szigno_Root_CA_2009.pem
+│   │       │   ├── 81b9768f.0 -> DigiCert_High_Assurance_EV_Root_CA.pem
+│   │       │   ├── 82223c44.0 -> Buypass_Class_2_Root_CA.pem
+│   │       │   ├── 83e9984f.0 -> e-Szigno_Root_CA_2017.pem
+│   │       │   ├── 85cde254.0 -> Starfield_Root_Certificate_Authority_-_G2.pem
+│   │       │   ├── 86212b19.0 -> AffirmTrust_Networking.pem
+│   │       │   ├── 869fbf79.0 -> emSign_ECC_Root_CA_-_C3.pem
+│   │       │   ├── 87753b0d.0 -> GeoTrust_Universal_CA_2.pem
+│   │       │   ├── 882de061.0 -> certSIGN_ROOT_CA.pem
+│   │       │   ├── 8867006a.0 -> GeoTrust_Universal_CA_2.pem
+│   │       │   ├── 88950faa.0 -> SSL.com_Root_Certification_Authority_ECC.pem
+│   │       │   ├── 89c02a45.0 -> COMODO_ECC_Certification_Authority.pem
+│   │       │   ├── 8cb5ee0f.0 -> Amazon_Root_CA_3.pem
+│   │       │   ├── 8d6437c3.0 -> DigiCert_Assured_ID_Root_G2.pem
+│   │       │   ├── 8d86cdd1.0 -> certSIGN_ROOT_CA.pem
+│   │       │   ├── 8d89cda1.0 -> Microsoft_ECC_Root_Certificate_Authority_2017.pem
+│   │       │   ├── 9282e51c.0 -> CFCA_EV_ROOT.pem
+│   │       │   ├── 930ac5d2.0 -> Actalis_Authentication_Root_CA.pem
+│   │       │   ├── 9339512a.0 -> QuoVadis_Root_CA_3.pem
+│   │       │   ├── 93bc0acc.0 -> AffirmTrust_Networking.pem
+│   │       │   ├── 9479c8c3.0 -> Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+│   │       │   ├── 9576d26b.0 -> CA_Disig_Root_R2.pem
+│   │       │   ├── 9591a472.0 -> Microsoft_RSA_Root_Certificate_Authority_2017.pem
+│   │       │   ├── 95aff9e3.0 -> Certum_Trusted_Network_CA.pem
+│   │       │   ├── 9685a493.0 -> Hongkong_Post_Root_CA_1.pem
+│   │       │   ├── 9772ca32.0 -> GeoTrust_Primary_Certification_Authority.pem
+│   │       │   ├── 985c1f52.0 -> GlobalSign_Root_CA_-_R6.pem
+│   │       │   ├── 988a38cb.0 -> NetLock_Arany__Class_Gold__F__tan__s__tv__ny.pem
+│   │       │   ├── 9aef356c.0 -> Trustwave_Global_ECC_P384_Certification_Authority.pem
+│   │       │   ├── 9b5697b0.0 -> Trustwave_Global_ECC_P256_Certification_Authority.pem
+│   │       │   ├── 9c2e7d30.0 -> Sonera_Class_2_Root_CA.pem
+│   │       │   ├── 9c8dfbd4.0 -> AffirmTrust_Premium_ECC.pem
+│   │       │   ├── 9d04f354.0 -> DigiCert_Assured_ID_Root_G2.pem
+│   │       │   ├── 9d6523ce.0 -> ePKI_Root_Certification_Authority.pem
+│   │       │   ├── 9f533518.0 -> Global_Chambersign_Root_-_2008.pem
+│   │       │   ├── a2c66da8.0 -> DigiCert_Trusted_Root_G4.pem
+│   │       │   ├── a3418fda.0 -> GTS_Root_R4.pem
+│   │       │   ├── a3896b44.0 -> Security_Communication_Root_CA.pem
+│   │       │   ├── a7605362.0 -> Sonera_Class_2_Root_CA.pem
+│   │       │   ├── a7d2cf64.0 -> thawte_Primary_Root_CA_-_G2.pem
+│   │       │   ├── a81e292b.0 -> SZAFIR_ROOT_CA2.pem
+│   │       │   ├── a94d09e5.0 -> ACCVRAIZ1.pem
+│   │       │   ├── a9d40e02.0 -> certSIGN_Root_CA_G2.pem
+│   │       │   ├── ab5346f4.0 -> SecureSign_RootCA11.pem
+│   │       │   ├── ab59055e.0 -> GDCA_TrustAUTH_R5_ROOT.pem
+│   │       │   ├── ACCVRAIZ1.pem
+│   │       │   ├── AC_RAIZ_FNMT-RCM.pem
+│   │       │   ├── Actalis_Authentication_Root_CA.pem
+│   │       │   ├── ad088e1d.0 -> GeoTrust_Universal_CA.pem
+│   │       │   ├── aeb67534.0 -> EC-ACC.pem
+│   │       │   ├── aee5f10d.0 -> Entrust.net_Premium_2048_Secure_Server_CA.pem
+│   │       │   ├── AffirmTrust_Commercial.pem
+│   │       │   ├── AffirmTrust_Networking.pem
+│   │       │   ├── AffirmTrust_Premium_ECC.pem
+│   │       │   ├── AffirmTrust_Premium.pem
+│   │       │   ├── Amazon_Root_CA_1.pem
+│   │       │   ├── Amazon_Root_CA_2.pem
+│   │       │   ├── Amazon_Root_CA_3.pem
+│   │       │   ├── Amazon_Root_CA_4.pem
+│   │       │   ├── Atos_TrustedRoot_2011.pem
+│   │       │   ├── Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+│   │       │   ├── b0e59380.0 -> GlobalSign_ECC_Root_CA_-_R4.pem
+│   │       │   ├── b0ed035a.0 -> TWCA_Global_Root_CA.pem
+│   │       │   ├── b0f3e76e.0 -> GlobalSign_Root_CA.pem
+│   │       │   ├── b1159c4c.0 -> DigiCert_Assured_ID_Root_CA.pem
+│   │       │   ├── b204d74a.0 -> VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.pem
+│   │       │   ├── b3fb433b.0 -> Entrust_Root_Certification_Authority_-_EC1.pem
+│   │       │   ├── b66938e9.0 -> Secure_Global_CA.pem
+│   │       │   ├── b727005e.0 -> AffirmTrust_Premium.pem
+│   │       │   ├── b74d2bd5.0 -> emSign_ECC_Root_CA_-_G3.pem
+│   │       │   ├── b7a5b843.0 -> TWCA_Root_Certification_Authority.pem
+│   │       │   ├── b7db1890.0 -> TWCA_Root_Certification_Authority.pem
+│   │       │   ├── b872f2b4.0 -> Atos_TrustedRoot_2011.pem
+│   │       │   ├── b936d1c6.0 -> AC_RAIZ_FNMT-RCM.pem
+│   │       │   ├── ba89ed3b.0 -> thawte_Primary_Root_CA_-_G3.pem
+│   │       │   ├── Baltimore_CyberTrust_Root.pem
+│   │       │   ├── bc3f2570.0 -> Go_Daddy_Root_Certificate_Authority_-_G2.pem
+│   │       │   ├── bd43e1dd.0 -> Hongkong_Post_Root_CA_3.pem
+│   │       │   ├── bdacca6f.0 -> Secure_Global_CA.pem
+│   │       │   ├── bf53fb88.0 -> Microsoft_RSA_Root_Certificate_Authority_2017.pem
+│   │       │   ├── bf64f35b.0 -> Entrust_Root_Certification_Authority.pem
+│   │       │   ├── Buypass_Class_2_Root_CA.pem
+│   │       │   ├── Buypass_Class_3_Root_CA.pem
+│   │       │   ├── c01cdfa2.0 -> VeriSign_Universal_Root_Certification_Authority.pem
+│   │       │   ├── c01eb047.0 -> UCA_Global_G2_Root.pem
+│   │       │   ├── c089bbbd.0 -> thawte_Primary_Root_CA_-_G2.pem
+│   │       │   ├── c28a8a30.0 -> D-TRUST_Root_Class_3_CA_2_2009.pem
+│   │       │   ├── c2c1704e.0 -> TrustCor_ECA-1.pem
+│   │       │   ├── c47d9980.0 -> Chambers_of_Commerce_Root_-_2008.pem
+│   │       │   ├── c491639e.0 -> DigiCert_Assured_ID_Root_G3.pem
+│   │       │   ├── c51c224c.0 -> Trustis_FPS_Root_CA.pem
+│   │       │   ├── c559d742.0 -> GTS_Root_R2.pem
+│   │       │   ├── c7e2a638.0 -> GeoTrust_Primary_Certification_Authority_-_G3.pem
+│   │       │   ├── c90bc37d.0 -> DigiCert_Global_Root_G2.pem
+│   │       │   ├── ca6e4ad9.0 -> ePKI_Root_Certification_Authority.pem
+│   │       │   ├── CA_Disig_Root_R2.pem
+│   │       │   ├── cb156124.0 -> E-Tugra_Certification_Authority.pem
+│   │       │   ├── cb1c3204.0 -> Certum_Trusted_Network_CA_2.pem
+│   │       │   ├── cbf06781.0 -> Go_Daddy_Root_Certificate_Authority_-_G2.pem
+│   │       │   ├── cc450945.0 -> Izenpe.com.pem
+│   │       │   ├── ccc52f49.0 -> AffirmTrust_Premium_ECC.pem
+│   │       │   ├── cd58d51e.0 -> Security_Communication_RootCA2.pem
+│   │       │   ├── cd8c0d63.0 -> AC_RAIZ_FNMT-RCM.pem
+│   │       │   ├── ce5e74ef.0 -> Amazon_Root_CA_1.pem
+│   │       │   ├── Certigna.pem
+│   │       │   ├── Certigna_Root_CA.pem
+│   │       │   ├── certSIGN_Root_CA_G2.pem
+│   │       │   ├── certSIGN_ROOT_CA.pem
+│   │       │   ├── Certum_Trusted_Network_CA_2.pem
+│   │       │   ├── Certum_Trusted_Network_CA.pem
+│   │       │   ├── cf701eeb.0 -> SecureTrust_CA.pem
+│   │       │   ├── CFCA_EV_ROOT.pem
+│   │       │   ├── Chambers_of_Commerce_Root_-_2008.pem
+│   │       │   ├── Comodo_AAA_Services_root.pem
+│   │       │   ├── COMODO_Certification_Authority.pem
+│   │       │   ├── COMODO_ECC_Certification_Authority.pem
+│   │       │   ├── COMODO_RSA_Certification_Authority.pem
+│   │       │   ├── Cybertrust_Global_Root.pem
+│   │       │   ├── d06393bb.0 -> T-TeleSec_GlobalRoot_Class_2.pem
+│   │       │   ├── d0cddf45.0 -> TrustCor_RootCert_CA-2.pem
+│   │       │   ├── d16a5865.0 -> Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+│   │       │   ├── d18e9066.0 -> IdenTrust_Commercial_Root_CA_1.pem
+│   │       │   ├── d41b5e2a.0 -> Amazon_Root_CA_4.pem
+│   │       │   ├── d4c339cb.0 -> COMODO_RSA_Certification_Authority.pem
+│   │       │   ├── d4dae3dd.0 -> D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+│   │       │   ├── d59297b8.0 -> Security_Communication_RootCA2.pem
+│   │       │   ├── d6325660.0 -> COMODO_RSA_Certification_Authority.pem
+│   │       │   ├── d7746a63.0 -> D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+│   │       │   ├── d7e8dc79.0 -> QuoVadis_Root_CA_2.pem
+│   │       │   ├── d853d49e.0 -> Trustis_FPS_Root_CA.pem
+│   │       │   ├── d887a5bb.0 -> Trustwave_Global_ECC_P384_Certification_Authority.pem
+│   │       │   ├── da7377f6.0 -> UCA_Extended_Validation_Root.pem
+│   │       │   ├── dbc54cab.0 -> AffirmTrust_Premium.pem
+│   │       │   ├── dbff3a01.0 -> emSign_Root_CA_-_C1.pem
+│   │       │   ├── dc4d6a89.0 -> GlobalSign_Root_CA_-_R6.pem
+│   │       │   ├── dc99f41e.0 -> Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+│   │       │   ├── dd8e9d41.0 -> DigiCert_Global_Root_G3.pem
+│   │       │   ├── de6d66f3.0 -> Amazon_Root_CA_4.pem
+│   │       │   ├── dfc0fe80.0 -> OISTE_WISeKey_Global_Root_GB_CA.pem
+│   │       │   ├── DigiCert_Assured_ID_Root_CA.pem
+│   │       │   ├── DigiCert_Assured_ID_Root_G2.pem
+│   │       │   ├── DigiCert_Assured_ID_Root_G3.pem
+│   │       │   ├── DigiCert_Global_Root_CA.pem
+│   │       │   ├── DigiCert_Global_Root_G2.pem
+│   │       │   ├── DigiCert_Global_Root_G3.pem
+│   │       │   ├── DigiCert_High_Assurance_EV_Root_CA.pem
+│   │       │   ├── DigiCert_Trusted_Root_G4.pem
+│   │       │   ├── DST_Root_CA_X3.pem
+│   │       │   ├── D-TRUST_Root_Class_3_CA_2_2009.pem
+│   │       │   ├── D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+│   │       │   ├── e113c810.0 -> Certigna.pem
+│   │       │   ├── e18bfb83.0 -> QuoVadis_Root_CA_3_G3.pem
+│   │       │   ├── e2799e36.0 -> GeoTrust_Primary_Certification_Authority_-_G3.pem
+│   │       │   ├── e36a6752.0 -> Atos_TrustedRoot_2011.pem
+│   │       │   ├── e442e424.0 -> QuoVadis_Root_CA_3_G3.pem
+│   │       │   ├── e48193cf.0 -> AffirmTrust_Commercial.pem
+│   │       │   ├── e73d606e.0 -> OISTE_WISeKey_Global_Root_GB_CA.pem
+│   │       │   ├── e775ed2d.0 -> GeoTrust_Universal_CA.pem
+│   │       │   ├── e8651083.0 -> Microsec_e-Szigno_Root_CA_2009.pem
+│   │       │   ├── e868b802.0 -> e-Szigno_Root_CA_2017.pem
+│   │       │   ├── e8de2f56.0 -> Buypass_Class_3_Root_CA.pem
+│   │       │   ├── EC-ACC.pem
+│   │       │   ├── ed39abd0.0 -> DigiCert_Global_Root_G3.pem
+│   │       │   ├── edcbddb5.0 -> Trustwave_Global_Certification_Authority.pem
+│   │       │   ├── ee64a828.0 -> Comodo_AAA_Services_root.pem
+│   │       │   ├── eed8c118.0 -> COMODO_ECC_Certification_Authority.pem
+│   │       │   ├── ef954a4e.0 -> IdenTrust_Commercial_Root_CA_1.pem
+│   │       │   ├── emSign_ECC_Root_CA_-_C3.pem
+│   │       │   ├── emSign_ECC_Root_CA_-_G3.pem
+│   │       │   ├── emSign_Root_CA_-_C1.pem
+│   │       │   ├── emSign_Root_CA_-_G1.pem
+│   │       │   ├── Entrust.net_Premium_2048_Secure_Server_CA.pem
+│   │       │   ├── Entrust_Root_Certification_Authority_-_EC1.pem
+│   │       │   ├── Entrust_Root_Certification_Authority_-_G2.pem
+│   │       │   ├── Entrust_Root_Certification_Authority_-_G4.pem
+│   │       │   ├── Entrust_Root_Certification_Authority.pem
+│   │       │   ├── ePKI_Root_Certification_Authority.pem
+│   │       │   ├── e-Szigno_Root_CA_2017.pem
+│   │       │   ├── E-Tugra_Certification_Authority.pem
+│   │       │   ├── f013ecaf.0 -> GTS_Root_R1.pem
+│   │       │   ├── f081611a.0 -> Go_Daddy_Class_2_CA.pem
+│   │       │   ├── f0c70a8d.0 -> SSL.com_EV_Root_Certification_Authority_ECC.pem
+│   │       │   ├── f0cd152c.0 -> Entrust_Root_Certification_Authority_-_G4.pem
+│   │       │   ├── f249de83.0 -> Trustwave_Global_Certification_Authority.pem
+│   │       │   ├── f30dd6ad.0 -> USERTrust_ECC_Certification_Authority.pem
+│   │       │   ├── f3377b1b.0 -> Security_Communication_Root_CA.pem
+│   │       │   ├── f387163d.0 -> Starfield_Class_2_CA.pem
+│   │       │   ├── f39fc864.0 -> SecureTrust_CA.pem
+│   │       │   ├── f459871d.0 -> emSign_Root_CA_-_G1.pem
+│   │       │   ├── f51bb24c.0 -> Certigna_Root_CA.pem
+│   │       │   ├── facacbc6.0 -> VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.pem
+│   │       │   ├── fb5fa911.0 -> Amazon_Root_CA_2.pem
+│   │       │   ├── fc5a8f99.0 -> USERTrust_RSA_Certification_Authority.pem
+│   │       │   ├── fd08c599.0 -> Amazon_Root_CA_1.pem
+│   │       │   ├── fde84897.0 -> Certigna.pem
+│   │       │   ├── fe8a2cd8.0 -> SZAFIR_ROOT_CA2.pem
+│   │       │   ├── ff34af3f.0 -> TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
+│   │       │   ├── GDCA_TrustAUTH_R5_ROOT.pem
+│   │       │   ├── GeoTrust_Global_CA.pem
+│   │       │   ├── GeoTrust_Primary_Certification_Authority_-_G2.pem
+│   │       │   ├── GeoTrust_Primary_Certification_Authority_-_G3.pem
+│   │       │   ├── GeoTrust_Primary_Certification_Authority.pem
+│   │       │   ├── GeoTrust_Universal_CA_2.pem
+│   │       │   ├── GeoTrust_Universal_CA.pem
+│   │       │   ├── Global_Chambersign_Root_-_2008.pem
+│   │       │   ├── GlobalSign_ECC_Root_CA_-_R4.pem
+│   │       │   ├── GlobalSign_ECC_Root_CA_-_R5.pem
+│   │       │   ├── GlobalSign_Root_CA.pem
+│   │       │   ├── GlobalSign_Root_CA_-_R2.pem
+│   │       │   ├── GlobalSign_Root_CA_-_R3.pem
+│   │       │   ├── GlobalSign_Root_CA_-_R6.pem
+│   │       │   ├── Go_Daddy_Class_2_CA.pem
+│   │       │   ├── Go_Daddy_Root_Certificate_Authority_-_G2.pem
+│   │       │   ├── GTS_Root_R1.pem
+│   │       │   ├── GTS_Root_R2.pem
+│   │       │   ├── GTS_Root_R3.pem
+│   │       │   ├── GTS_Root_R4.pem
+│   │       │   ├── Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+│   │       │   ├── Hellenic_Academic_and_Research_Institutions_RootCA_2011.pem
+│   │       │   ├── Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+│   │       │   ├── Hongkong_Post_Root_CA_1.pem
+│   │       │   ├── Hongkong_Post_Root_CA_3.pem
+│   │       │   ├── IdenTrust_Commercial_Root_CA_1.pem
+│   │       │   ├── IdenTrust_Public_Sector_Root_CA_1.pem
+│   │       │   ├── ISRG_Root_X1.pem
+│   │       │   ├── Izenpe.com.pem
+│   │       │   ├── Microsec_e-Szigno_Root_CA_2009.pem
+│   │       │   ├── Microsoft_ECC_Root_Certificate_Authority_2017.pem
+│   │       │   ├── Microsoft_RSA_Root_Certificate_Authority_2017.pem
+│   │       │   ├── NetLock_Arany__Class_Gold__F__tan__s__tv__ny.pem
+│   │       │   ├── Network_Solutions_Certificate_Authority.pem
+│   │       │   ├── OISTE_WISeKey_Global_Root_GB_CA.pem
+│   │       │   ├── OISTE_WISeKey_Global_Root_GC_CA.pem
+│   │       │   ├── QuoVadis_Root_CA_1_G3.pem
+│   │       │   ├── QuoVadis_Root_CA_2_G3.pem
+│   │       │   ├── QuoVadis_Root_CA_2.pem
+│   │       │   ├── QuoVadis_Root_CA_3_G3.pem
+│   │       │   ├── QuoVadis_Root_CA_3.pem
+│   │       │   ├── QuoVadis_Root_CA.pem
+│   │       │   ├── Secure_Global_CA.pem
+│   │       │   ├── SecureSign_RootCA11.pem
+│   │       │   ├── SecureTrust_CA.pem
+│   │       │   ├── Security_Communication_RootCA2.pem
+│   │       │   ├── Security_Communication_Root_CA.pem
+│   │       │   ├── Sonera_Class_2_Root_CA.pem
+│   │       │   ├── SSL.com_EV_Root_Certification_Authority_ECC.pem
+│   │       │   ├── SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
+│   │       │   ├── SSL.com_Root_Certification_Authority_ECC.pem
+│   │       │   ├── SSL.com_Root_Certification_Authority_RSA.pem
+│   │       │   ├── Staat_der_Nederlanden_EV_Root_CA.pem
+│   │       │   ├── Staat_der_Nederlanden_Root_CA_-_G3.pem
+│   │       │   ├── Starfield_Class_2_CA.pem
+│   │       │   ├── Starfield_Root_Certificate_Authority_-_G2.pem
+│   │       │   ├── Starfield_Services_Root_Certificate_Authority_-_G2.pem
+│   │       │   ├── SwissSign_Gold_CA_-_G2.pem
+│   │       │   ├── SwissSign_Silver_CA_-_G2.pem
+│   │       │   ├── SZAFIR_ROOT_CA2.pem
+│   │       │   ├── TeliaSonera_Root_CA_v1.pem
+│   │       │   ├── thawte_Primary_Root_CA_-_G2.pem
+│   │       │   ├── thawte_Primary_Root_CA_-_G3.pem
+│   │       │   ├── thawte_Primary_Root_CA.pem
+│   │       │   ├── TrustCor_ECA-1.pem
+│   │       │   ├── TrustCor_RootCert_CA-1.pem
+│   │       │   ├── TrustCor_RootCert_CA-2.pem
+│   │       │   ├── Trustis_FPS_Root_CA.pem
+│   │       │   ├── Trustwave_Global_Certification_Authority.pem
+│   │       │   ├── Trustwave_Global_ECC_P256_Certification_Authority.pem
+│   │       │   ├── Trustwave_Global_ECC_P384_Certification_Authority.pem
+│   │       │   ├── T-TeleSec_GlobalRoot_Class_2.pem
+│   │       │   ├── T-TeleSec_GlobalRoot_Class_3.pem
+│   │       │   ├── TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
+│   │       │   ├── TWCA_Global_Root_CA.pem
+│   │       │   ├── TWCA_Root_Certification_Authority.pem
+│   │       │   ├── UCA_Extended_Validation_Root.pem
+│   │       │   ├── UCA_Global_G2_Root.pem
+│   │       │   ├── USERTrust_ECC_Certification_Authority.pem
+│   │       │   ├── USERTrust_RSA_Certification_Authority.pem
+│   │       │   ├── VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.pem
+│   │       │   ├── VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.pem
+│   │       │   ├── VeriSign_Universal_Root_Certification_Authority.pem
+│   │       │   └── XRamp_Global_CA_Root.pem
+│   │       ├── edk2-cacerts.bin
+│   │       ├── email-ca-bundle.pem
+│   │       ├── objsign-ca-bundle.pem
+│   │       └── tls-ca-bundle.pem
 │   ├── cifs-utils
 │   │   └── idmap-plugin -> /usr/lib/cifs-utils/idmapwb.so
 │   ├── conf.d
@@ -4414,19 +4446,15 @@
 │   ├── cpufreq-bench.conf
 │   ├── cron.d
 │   │   └── 0hourly
-│   ├── cron.daily
 │   ├── cron.deny
 │   ├── cron.hourly
 │   │   └── 0anacron
-│   ├── cron.monthly
-│   ├── cron.weekly
 │   ├── crypttab
 │   ├── ctdb
 │   │   ├── ctdb-crash-cleanup.sh
 │   │   ├── debug-hung-script.sh
 │   │   ├── debug_locks.sh
 │   │   ├── events
-│   │   │   ├── legacy
 │   │   │   └── notification
 │   │   │       └── README
 │   │   ├── functions
@@ -4457,7 +4485,6 @@
 │   │   ├── printers.conf.O
 │   │   ├── snmp.conf
 │   │   ├── snmp.conf.default
-│   │   ├── ssl
 │   │   ├── subscriptions.conf
 │   │   └── subscriptions.conf.O
 │   ├── cupshelpers
@@ -4478,14 +4505,12 @@
 │   │   ├── timeshift.json
 │   │   ├── ufw
 │   │   └── useradd
-│   ├── depmod.d
 │   ├── dhcpcd.conf
 │   ├── dnsmasq.conf
 │   ├── e2scrub.conf
 │   ├── environment
 │   ├── ethertypes
 │   ├── exports
-│   ├── exports.d
 │   ├── flatpak
 │   │   └── remotes.d
 │   │       └── flathub.flatpakrepo
@@ -4978,9 +5003,6 @@
 │   │   ├── type-dejavu.xml
 │   │   ├── type-ghostscript.xml
 │   │   └── type.xml
-│   ├── initcpio
-│   │   ├── hooks
-│   │   └── install
 │   ├── inputrc
 │   ├── iproute2
 │   │   ├── bpf_pinning
@@ -5020,9 +5042,6 @@
 │   │   │           ├── default_local.policy
 │   │   │           └── default_US_export.policy
 │   │   └── sound.properties
-│   ├── kernel
-│   │   └── install.d
-│   ├── keyutils
 │   ├── krb5.conf
 │   ├── ksysguarddrc
 │   ├── ld.so.cache
@@ -5039,7 +5058,6 @@
 │   ├── libnl
 │   │   ├── classid
 │   │   └── pktloc
-│   ├── libpaper.d
 │   ├── libreoffice
 │   │   ├── bootstraprc
 │   │   ├── psprint.conf
@@ -5065,8 +5083,6 @@
 │   │   └── samba
 │   ├── lsb-release
 │   ├── lvm
-│   │   ├── archive
-│   │   ├── backup
 │   │   ├── cache
 │   │   ├── lvm.conf
 │   │   ├── lvmlocal.conf
@@ -5138,14 +5154,8 @@
 │   │   └── monitor.conf
 │   ├── netconfig
 │   ├── NetworkManager
-│   │   ├── conf.d
 │   │   ├── dispatcher.d
-│   │   │   ├── 99tlp-rdw-nm
-│   │   │   ├── no-wait.d
-│   │   │   ├── pre-down.d
-│   │   │   └── pre-up.d
-│   │   ├── dnsmasq.d
-│   │   ├── dnsmasq-shared.d
+│   │   │   └── 99tlp-rdw-nm
 │   │   ├── NetworkManager.conf
 │   │   └── system-connections
 │   │       └── VECTRA.nmconnection
@@ -5165,12 +5175,7 @@
 │   │   ├── openmpi-totalview.tcl
 │   │   └── pmix-mca-params.conf
 │   ├── openswap.conf
-│   ├── openvpn
-│   │   ├── client
-│   │   └── server
 │   ├── os-release -> ../usr/lib/os-release
-│   ├── ostree
-│   │   └── remotes.d
 │   ├── ostree-mkinitcpio.conf
 │   ├── pacman.conf
 │   ├── pacman.d
@@ -5261,14 +5266,12 @@
 │   │   ├── ip-up.d
 │   │   │   └── 00-dns.sh
 │   │   ├── ipv6-down
-│   │   ├── ipv6-down.d
 │   │   ├── ipv6-up
 │   │   ├── ipv6-up.d
 │   │   │   └── 00-iface-config.sh
 │   │   ├── options
 │   │   ├── options.pptp
-│   │   ├── pap-secrets
-│   │   └── peers
+│   │   └── pap-secrets
 │   ├── printcap
 │   ├── profile
 │   ├── profile.d
@@ -5297,7 +5300,6 @@
 │   │   ├── default.pa
 │   │   └── system.pa
 │   ├── rarfiles.lst
-│   ├── rc_keymaps
 │   ├── rc_maps.cfg
 │   ├── request-key.conf
 │   ├── request-key.d
@@ -5309,8 +5311,6 @@
 │   ├── rhashrc
 │   ├── rpc
 │   ├── rsyncd.conf
-│   ├── samba
-│   │   └── private
 │   ├── sane.d
 │   │   ├── abaton.conf
 │   │   ├── agfafocus.conf
@@ -5413,10 +5413,8 @@
 │   │   ├── namespace.init
 │   │   ├── pam_env.conf
 │   │   ├── pwquality.conf
-│   │   ├── pwquality.conf.d
 │   │   └── time.conf
 │   ├── sensors3.conf
-│   ├── sensors.d
 │   ├── services
 │   ├── shadow
 │   ├── shadow-
@@ -5736,7 +5734,6 @@
 │   │   │   ├── EC-ACC.pem -> ../../ca-certificates/extracted/cadir/EC-ACC.pem
 │   │   │   ├── ed39abd0.0 -> ../../ca-certificates/extracted/cadir/DigiCert_Global_Root_G3.pem
 │   │   │   ├── edcbddb5.0 -> ../../ca-certificates/extracted/cadir/Trustwave_Global_Certification_Authority.pem
-│   │   │   ├── edk2
 │   │   │   ├── ee64a828.0 -> ../../ca-certificates/extracted/cadir/Comodo_AAA_Services_root.pem
 │   │   │   ├── eed8c118.0 -> ../../ca-certificates/extracted/cadir/COMODO_ECC_Certification_Authority.pem
 │   │   │   ├── ef954a4e.0 -> ../../ca-certificates/extracted/cadir/IdenTrust_Commercial_Root_CA_1.pem
@@ -5863,8 +5860,7 @@
 │   │   │   ├── tsget -> tsget.pl
 │   │   │   └── tsget.pl
 │   │   ├── openssl.cnf
-│   │   ├── openssl.cnf.dist
-│   │   └── private
+│   │   └── openssl.cnf.dist
 │   ├── sudo.conf
 │   ├── sudoers
 │   ├── sudoers.d
@@ -5880,7 +5876,6 @@
 │   │   ├── journal-remote.conf
 │   │   ├── journal-upload.conf
 │   │   ├── logind.conf
-│   │   ├── network
 │   │   ├── networkd.conf
 │   │   ├── pstore.conf
 │   │   ├── resolved.conf
@@ -5946,7 +5941,6 @@
 │   ├── tlp.d
 │   │   ├── 00-template.conf
 │   │   └── README
-│   ├── tmpfiles.d
 │   ├── tpm2-tss
 │   │   ├── fapi-config.json
 │   │   └── fapi-profiles
@@ -5955,7 +5949,6 @@
 │   ├── trusted-key.key
 │   ├── ts.conf
 │   ├── udev
-│   │   ├── hwdb.d
 │   │   ├── rules.d
 │   │   │   └── 90-mhwd-prime-powermanagement.rules
 │   │   └── udev.conf
@@ -5988,7 +5981,6 @@
 │   ├── UPower
 │   │   └── UPower.conf
 │   ├── usb_modeswitch.conf
-│   ├── usb_modeswitch.d
 │   ├── usb_modeswitch.setup
 │   ├── vconsole.conf
 │   ├── vdpau_wrapper.cfg
@@ -5996,7 +5988,6 @@
 │   │   ├── default.conf
 │   │   └── vpnc-script
 │   ├── wgetrc
-│   ├── wpa_supplicant
 │   ├── X11
 │   │   ├── imwheel
 │   │   │   └── imwheelrc
@@ -6274,6 +6265,8 @@
 ├── pkglist-aur.txt
 ├── pkglist-repo.txt
 ├── README.md
-└── TREE
+├── TREE
+└── ZSH
+    └── dot.zshrc
 
-710 directories, 5566 files
+678 directories, 5591 files

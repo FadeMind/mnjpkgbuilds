@@ -1,0 +1,33 @@
+# Maintainer: Michael Lass <bevan@bi-co.net>
+# Maintainer: Doug Newgard <scimmia at archlinux dot info>
+# Contributor: reflexing <reflexing@reflexing.ru>
+
+pkgname=ttf-ms-win10
+pkgver=10.0.22000.1024
+pkgrel=1
+epoch=
+pkgdesc='Microsoft Windows 10 TrueType fonts'
+arch=(any)
+url='http://www.microsoft.com/typography/fonts/product.aspx?PID=164'
+license=(custom)
+groups=()
+depends=()
+makedepends=()
+checkdepends=()
+optdepends=()
+provides=(ttf-font ttf-vista-fonts ttf-tahoma ttf-ms-fonts)
+conflicts=(ttf-vista-fonts ttf-tahoma ttf-ms-fonts )
+replaces=()
+backup=()
+options=()
+install=
+changelog=
+source=("Fonts.zip")
+noextract=()
+sha256sums=('b7de62577af5762908711d4f65642d115cbb40ab87bb8987af7e0812b9ef9919')
+
+package() {
+    install -Dm644 $srcdir/Fonts/* -t "$pkgdir/usr/share/fonts/TTF"
+}
+
+# vim: ts=4 sw=4 et
